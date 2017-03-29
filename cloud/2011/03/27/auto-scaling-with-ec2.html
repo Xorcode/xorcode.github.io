@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+  <title>Auto-Scaling with EC2</title>
+  <meta name="description" content="Set up a scalable server farm in less than 10 minutes with Amazon Elastic Compute Cloud utilizing Elastic Load Balancing and Auto Scaling.">
+
+  <script src="https://use.typekit.net/nsl7rga.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min.js"><\/script>')</script>
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://xorcode.com/cloud/2011/03/27/auto-scaling-with-ec2.html">
+  <link rel="alternate" type="application/rss+xml" title="Xorcode" href="/feed.xml">
+
+  
+</head>
+
+
+  <body class="post">
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      <img src="/assets/img/logotype-light.png" alt="Xorcode">
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <span class="fa fa-bars fa-2x" aria-hidden="true" title="Skip to main navigation"><span class="sr-only">Skip to main navigation</span></span>
+    </a>
+    <nav role="navigation">
+      <ul id="menu-primary-menu" class="navigation-menu show">
+        <li class='menu-item'><a href='blog/categories/cloud'>Cloud</a></li><li class='menu-item'><a href='blog/categories/code'>Code</a></li><li class='menu-item'><a href='blog/categories/server'>Server</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <section class="blog-entry left">
+  <article class="type-post" itemscope itemtype="http://schema.org/BlogPosting">
+    
+
+<span class="type">
+  
+    <a class='category' href='/blog/categories/cloud/'>Cloud</a>
+  
+</span>
+
+
+    <h1 itemprop="name headline">Auto-Scaling with EC2</h1>
+    <p class="date post-meta"><time datetime="2011-03-27T17:45:04+00:00" itemprop="datePublished">Mar 27, 2011</time></p>
+    <p>Set up a scalable server farm in less than 10 minutes with Amazon Elastic Compute Cloud utilizing Elastic Load Balancing and Auto Scaling.</p>
+
+<!--more-->
+
+<blockquote>
+  <p><img class="pull-right" src="/assets/uploads/2011/03/aws_logo.png" />Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale computing easier for developers.</p>
+</blockquote>
+
+<p>If you have used EC2 at all you must have wondered how you can automate the creation of instances in your load balancer. So did we. After much searching and various testing back and forth we came up with the following solution.</p>
+
+<h2 id="dependencies">Dependencies</h2>
+
+<p>The EC2 tools all require Java to be installed. Follow the instructions for your operating system in order to install a Java runtime environment.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>First you need to install these tools from Amazon:</p>
+
+<ul>
+  <li><a href="http://aws.amazon.com/developertools/351">EC2 API Command Line Tools</a></li>
+  <li><a href="http://aws.amazon.com/developertools/2535">EC2 Auto-Scaling API Tools</a></li>
+  <li><a href="http://aws.amazon.com/developertools/2534">EC2 CloudWatch API Tools</a></li>
+</ul>
+
+<p>To make these exercises easier for you to read we have selected Ubuntu as our operating system. If you have a Mac there are very few things you need to change apart from how to install the above mentioned command line tools.</p>
+
+<p>The EC2 command line tools are available through the Ubuntu Multiverse repository which you can activate through your package manager. Once you have done this, run the following command to install the tools:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo apt-get install ec2-api-tools
+</code></pre>
+</div>
+
+<p>Once you have installed the tools you need to download your key pair from Amazon so that you can access the API via the tools. In order to do this you need to access them through your <a href="http://aws.amazon.com/account/">AWS Account</a>. Once there, click the “<a href="https://aws-portal.amazon.com/gp/aws/developer/account/index.html?ie=UTF8&amp;action=access-key">Security Credentials</a>” link, here you need to create an X.509 Certificate for use with the EC2 Tools.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>![X.509 Certificates - Create Certificate](‘/assets/uploads/2011/03/createcert.png’</td>
+      <td>relative_url)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Download both the Private Key File and the X.509 Certificate by using the two buttons.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>![Download X.509 Certificate](‘/assets/uploads/2011/03/x.509cert.png’</td>
+      <td>relative_url)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Store your private key file somewhere safe. Like the text above states, if you lose it, there is no way to recover and you will have to create a new certificate. This is especially important with your SSH key used with your instances since you will lose SSH access if you lose your private key part.</p>
+
+<p>Once you have both certificate parts, create the following directory:</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>EC2
+</code></pre>
+</div>
+
+<p>In this directory create sub directories for <code class="highlighter-rouge">CloudWatch</code> and <code class="highlighter-rouge">AutoScaling</code>. Extract the respective tools into these directories and create the following files:</p>
+
+<figure class="highlight"><figcaption>File: exports.sh</figcaption><pre><code class="language-shell" data-lang="shell"><span class="c">#!/bin/sh</span>
+<span class="nb">export </span><span class="nv">EC2_PRIVATE_KEY</span><span class="o">=</span><span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>/pk-XXXXXXXXXXXXXXXXXXXXXXXX.pem
+<span class="nb">export </span><span class="nv">EC2_CERT</span><span class="o">=</span><span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>/cert-XXXXXXXXXXXXXXXXXXXXXXXX.pem
+<span class="nb">export </span><span class="nv">AWS_ELB_HOME</span><span class="o">=</span><span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>/ELB
+<span class="nb">export </span><span class="nv">AWS_AUTO_SCALING_HOME</span><span class="o">=</span><span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>/AutoScaling
+<span class="nb">export </span><span class="nv">AWS_CLOUDWATCH_HOME</span><span class="o">=</span><span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>/CloudWatch
+<span class="nb">export </span><span class="nv">JAVA_HOME</span><span class="o">=</span>/usr
+<span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:<span class="nv">$AWS_ELB_HOME</span>/bin:<span class="nv">$AWS_AUTO_SCALING_HOME</span>/bin:<span class="nv">$AWS_CLOUDWATCH_HOME</span>/bin</code></pre></figure>
+
+<figure class="highlight"><figcaption>File: setup.sh</figcaption><pre><code class="language-shell" data-lang="shell"><span class="c">#!/bin/sh</span>
+<span class="nv">EC2_ROOT</span><span class="o">=</span><span class="sb">`</span>dirname <span class="nv">$0</span><span class="sb">`</span>
+. <span class="nv">$EC2_ROOT</span>/exports.sh
+chmod +x <span class="nv">$EC2_ROOT</span>/AutoScaling/bin/<span class="k">*</span>
+chmod -x <span class="nv">$EC2_ROOT</span>/AutoScaling/bin/<span class="k">*</span>.cmd
+chmod +x <span class="nv">$EC2_ROOT</span>/ELB/bin/<span class="k">*</span>
+chmod -x <span class="nv">$EC2_ROOT</span>/ELB/bin/<span class="k">*</span>.cmd
+chmod +x <span class="nv">$EC2_ROOT</span>/CloudWatch/bin/<span class="k">*</span>
+chmod -x <span class="nv">$EC2_ROOT</span>/CloudWatch/bin/<span class="k">*</span>.cmd
+chmod +x <span class="nv">$EC2_ROOT</span>/<span class="k">*</span>.sh</code></pre></figure>
+
+<p>We are simply being lazy above and making sure that all executable files are executable and that the <code class="highlighter-rouge">*.cmd</code> files are not.</p>
+
+<p>Now we can create the actual script that sets up our auto-scaling load balancer!</p>
+
+<figure class="highlight"><figcaption>File: setup-autoscaling.sh</figcaption><pre><code class="language-shell" data-lang="shell"><span class="c">#!/bin/sh</span>
+
+. ./exports.sh
+./setup.sh
+
+<span class="nv">ZONE</span><span class="o">=</span><span class="s2">"us-east-1d"</span>
+<span class="nv">KEY_NAME</span><span class="o">=</span><span class="s2">"mykeyname"</span>
+<span class="nv">SECURITY_GROUP</span><span class="o">=</span><span class="s2">"default"</span>
+<span class="nv">INSTANCE_SIZE</span><span class="o">=</span><span class="s2">"t1.micro"</span>
+<span class="nv">LB_NAME</span><span class="o">=</span><span class="s2">"myscaling-lb"</span>
+<span class="nv">LC_NAME</span><span class="o">=</span><span class="s2">"myscaling-lc"</span>
+<span class="nv">LC_IMAGE_ID</span><span class="o">=</span><span class="s2">"ami-xxxxxxxx"</span>
+<span class="nv">SG_NAME</span><span class="o">=</span><span class="s2">"myscaling-sg"</span>
+
+<span class="c"># Set up load balancer</span>
+elb-create-lb <span class="nv">$LB_NAME</span> --headers --listener <span class="s2">"lb-port=80,instance-port=80,protocol=http"</span>
+    --availability-zones <span class="nv">$ZONE</span>
+elb-configure-healthcheck  <span class="nv">$LB_NAME</span>  --headers --target <span class="s2">"HTTP:80/alive.php"</span>
+    --interval 6 --timeout 2 --unhealthy-threshold 2 --healthy-threshold 7
+
+<span class="c"># Setup auto scaling</span>
+as-create-launch-config <span class="nv">$LC_NAME</span> --image-id <span class="nv">$LC_IMAGE_ID</span> --instance-type <span class="nv">$INSTANCE_SIZE</span>
+    --monitoring-disabled --key <span class="nv">$KEY_NAME</span> --group <span class="nv">$SECURITY_GROUP</span>
+    --user-data-file ./user-data.yml
+as-create-auto-scaling-group dmcleaner-sg --availability-zones <span class="nv">$ZONE</span>
+    --launch-configuration <span class="nv">$LC_NAME</span> --min-size 1 --max-size 6
+    --load-balancers <span class="nv">$LB_NAME</span>
+
+<span class="c"># Set up scaling policies</span>
+<span class="nv">SCALE_UP_POLICY</span><span class="o">=</span><span class="sb">`</span>as-put-scaling-policy MyScaleUpPolicy1
+    --auto-scaling-group <span class="nv">$SG_NAME</span> --adjustment<span class="o">=</span>1 --type ChangeInCapacity
+    --cooldown 300<span class="sb">`</span>
+
+mon-put-metric-alarm MyHighCPUAlarm1 --comparison-operator GreaterThanThreshold
+    --evaluation-periods 1 --metric-name CPUUtilization --namespace <span class="s2">"AWS/EC2"</span>
+    --period 600 --statistic Average --threshold 60
+    --alarm-actions <span class="nv">$SCALE_UP_POLICY</span>
+    --dimensions <span class="s2">"AutoScalingGroupName=</span><span class="nv">$SG_NAME</span><span class="s2">"</span>
+
+<span class="nv">SCALE_DOWN_POLICY</span><span class="o">=</span><span class="sb">`</span>as-put-scaling-policy MyScaleDownPolicy1
+    --auto-scaling-group <span class="nv">$SG_NAME</span> --adjustment<span class="o">=</span>-1 --type ChangeInCapacity
+    --cooldown 300<span class="sb">`</span>
+
+mon-put-metric-alarm MyLowCPUAlarm1 --comparison-operator LessThanThreshold
+    --evaluation-periods 1 --metric-name CPUUtilization --namespace <span class="s2">"AWS/EC2"</span>
+    --period 600 --statistic Average --threshold 10
+    --alarm-actions <span class="nv">$SCALE_DOWN_POLICY</span>
+    --dimensions <span class="s2">"AutoScalingGroupName=</span><span class="nv">$SG_NAME</span><span class="s2">"</span></code></pre></figure>
+
+<p>With the above script you will have a load balancer set up to scale between 2 and 6 instances. Feel free to tweak the values here to ensure that it works best for you.</p>
+
+    
+    
+      
+        <p>
+          
+            <a href="/blog/tags/ec2.html" rel="tag">ec2</a>, <a href="/blog/tags/amazon.html" rel="tag">amazon</a>
+          
+        </p>
+      
+    
+    <ul class="pager" style="padding-bottom:20px;">
+      <li class="previous"><a href="/code/2011/03/24/andtweet.html" title="Previous Post: AndTweet" class="button"><i class="fa fa-arrow-left" aria-hidden="true"></i> Previous article</a></li>
+      <li class="next"><a href="/code/2011/04/01/setting-up-zend-framework-part-1.html" title="Next Post: Setting up Zend Framework — Part 1" class="button">Next article <i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+    </ul>
+    
+      
+    
+  </article>
+</section>
+
+      </div>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+  <div class="footer-logo">
+    <img src="/assets/img/logo-mark-light.png " alt="Xorcode">
+  </div>
+  <div class="footer-links">
+    <ul>
+      <li><h3>Content</h3></li>
+      <li><a href='blog/categories/cloud'>Cloud</a></li><li><a href='blog/categories/code'>Code</a></li><li><a href='blog/categories/server'>Server</a></li>
+    </ul>
+    <ul>
+      <li><h3>Follow Us</h3></li>
+      <li><a href="javascript:void(0)"><i class="fa fa-twitter fa-inverse"></i> Twitter</a></li>
+      <li><a href="javascript:void(0)"><i class="fa fa-github fa-inverse"></i> Github</a></li>
+      <li><a href="javascript:void(0)"><i class="fa fa-bitbucket fa-inverse"></i> Bitbucket</a></li>
+      <li><a href="javascript:void(0)"><i class="fa fa-facebook fa-inverse"></i> Facebook</a></li>
+      <li><a href="javascript:void(0)"><i class="fa fa-linkedin fa-inverse"></i> LinkedIn</a></li>
+      <li><a href="javascript:void(0)"><i class="fa fa-google-plus fa-inverse"></i> Google+</a></li>
+    </ul>
+    <ul>
+      <li><h3>Legal</h3></li>
+      <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+      <li><a href="javascript:void(0)">Privacy Policy</a></li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <p>Copyright © 2003–2017 Xorcode, all rights reserved. Content available under the <span class="fa fa-creative-commons"></span> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons BY-NC-SA 4.0</a> license.</p>
+</footer>
+
+
+    <script src="/assets/js/jquery.matchHeight.js"></script>
+    <script src="/assets/js/functions.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Xorcode]]></title>
+  <link href="http://xorcode.com/atom.xml" rel="self"/>
+  <link href="http://xorcode.com/"/>
+  <updated>2017-03-29T04:07:39+00:00</updated>
+  <id>http://xorcode.com/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    <email><![CDATA[hello@xorcode.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Foodles Kickstarter Launched]]></title>
+    <link href="http://xorcode.com/code/2014/11/15/foodles-kickstarter-launched.html/"/>
+    <updated>2014-11-15T11:10:00+00:00</updated>
+    <id>http://xorcode.com/code/2014/11/15/foodles-kickstarter-launched</id>
+    <content type="html"><![CDATA[<p>New Kickstarter launched! Foodl.es keeps all your favorite family recipes at your fingertips, no matter where your family meal traditions take you.</p>
+
+<!-- more -->
+
+<p>We at Xorcode finally fired up our <a href="http://kck.st/1veSwLo">Kickstarter for Foodles</a>! Having been busy with other projects it took us a while, but it’s finally here and we are ready to rock this project out.</p>
+
+<iframe width="640" height="480" src="https://www.kickstarter.com/projects/torgny/foodles-your-heirloom-recipes-everywhere/widget/video.html" frameborder="0" scrolling="no" style="margin-bottom:15px;"> </iframe>
+
+<blockquote>
+  <p>Foodl.es isn’t just another online cookbook. We’ve taken the basic ingredients that you find in all cookbooks and thrown out the recipe. With a focus on preserving your family traditions it is something entirely special. So much of our family traditions are tied to food and meals shared with our loved ones. Foodl.es is not just a place to collect and organize your recipes, but also the preservation of family traditions by offering you the ability to attach a story, video or pictures to an individual recipe.</p>
+
+  <p>We know that you don’t always want to share your family recipes, so all your recipes default to private and can be shared at your choosing, not ours. With different subscription levels you can customize your account to fit your needs. Our Individual Package, well, it’s pretty explanatory. The Family Package opens up collaborating with other users to share recipes and create a family cookbook. Our Community Package is perfect for larger groups that want to create a shared cookbook. All cookbooks can be stored online or sent to a printer for publication.</p>
+</blockquote>
+
+<p>Help us spread the word and by backing the <a href="http://kck.st/1veSwLo">Foodles</a> project on Kickstarter!</p>
+
+<p><a class="button" href="http://kck.st/1veSwLo"><i class="fa fa-heart"></i> Kickstarter</a>
+<a class="button" href="http://foodl.es/"><i class="fa fa-bullhorn"></i> Foodles Landing page</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Help us Reset The Net on June 5]]></title>
+    <link href="http://xorcode.com/cloud/server/2014/04/19/help-us-reset-the-net-on-june-5.html/"/>
+    <updated>2014-04-19T11:38:00+00:00</updated>
+    <id>http://xorcode.com/cloud/server/2014/04/19/help-us-reset-the-net-on-june-5</id>
+    <content type="html"><![CDATA[<p>We can’t stop targeted hacking, but we <em>can</em> stop mass surveillance, by building proven security into the everyday Internet. Join us and others for <a href="https://www.resetthenet.org/">#ResetTheNet</a> on June 5th where we promote free, open source tools for end-to-end encryption.</p>
+
+<!-- more -->
+
+<iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/qKk8MHFLNNE?rel=0" frameborder="0" allowfullscreen=""></iframe>
+
+<h2 id="what-can-i-do">What can I do?</h2>
+
+<p>By June 5th, do something to reset your part of the web. What’s the most you can do to block mass surveillance? For sites and apps, the first step is securing the connection between you and your users. For anyone with an audience, or a circle of friends, the best thing you can do is promote a end-to-end encryption (there are some really easy-to-use tools for that now, but they need promotion). For visionary geeks, sky’s the limit. Think big!</p>
+
+<p>Get started now and read up on <a href="http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">HSTS</a> and <a href="http://en.wikipedia.org/wiki/Perfect_forward_secrecy">PFS</a>.</p>
+
+<p>For more information, see the <a href="https://www.resetthenet.org/">Reset The Net</a> page.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Charlotte Meteor Hackathon #1]]></title>
+    <link href="http://xorcode.com/cloud/code/2014/04/04/charlotte-meteor-hackathon-1.html/"/>
+    <updated>2014-04-04T01:08:00+00:00</updated>
+    <id>http://xorcode.com/cloud/code/2014/04/04/charlotte-meteor-hackathon-1</id>
+    <content type="html"><![CDATA[<p>We will be hacking on an app or service that provides value to Charlotte and the local communities here as a project where we can get to know Meteor in depth from idea to deployment and production environment configuration.</p>
+
+<!-- more -->
+
+<p>Please join us and other developers and designers from Charlotte as we create something cool for fun and for our own education!</p>
+
+<p>We will be providing food and drink for all Meteorites that attend. If you have any dietary preferences, please contact either Torgny or Jill so that we can plan accordingly.</p>
+
+<p>Scott Deeter has volunteered to lead this hackathon. He has a bit of work done on the concept for a Craigslist clone and can help us all get started learning Meteor!</p>
+
+<p>We are looking forward to joining with others to learn more about Meteor and its awesome features.</p>
+
+<p><a href="http://bit.ly/PuyJoa" class="button">Join Us</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Introducing the Meteor Charlotte meetup group]]></title>
+    <link href="http://xorcode.com/code/2014/03/03/introducing-meteor-charlotte-meetup-group.html/"/>
+    <updated>2014-03-03T16:36:00+00:00</updated>
+    <id>http://xorcode.com/code/2014/03/03/introducing-meteor-charlotte-meetup-group</id>
+    <content type="html"><![CDATA[<p>Earlier this year we at Xorcode started a <a href="http://bit.ly/1fWi0DT">meetup group</a> for people interested in Meteor in Charlotte, NC. We had a pretty decent turnout the first meeting, with thirteen Meteorites in attendance. We’ve got several more meetings planned along with a hackathon.</p>
+
+<!-- more -->
+
+<p>So far we’re 28 Meteorites and growing. We’ve got a Hackathon planned for <a href="http://bit.ly/1jN03sl"><i class="fa fa-calendar"></i> March 10th, 2014 at 6:30pm</a> where we will begin hacking on an application that will benefit the local community in some way.</p>
+
+<p>Do you have ideas for the next, cool local application that can help the people of Charlotte in their daily lives? If so, join our Hackathon and help us figure out what to build!</p>
+
+<p><a href="http://bit.ly/1jMZw9J" class="button"><i class="fa fa-users"></i> Join Charlotte Meteor</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Using New Relic's Node.js agent to monitor Geddy applications]]></title>
+    <link href="http://xorcode.com/code/2013/10/24/using-new-relic-node-js-agent-to-monitor-geddy-applications.html/"/>
+    <updated>2013-10-24T13:54:00+00:00</updated>
+    <id>http://xorcode.com/code/2013/10/24/using-new-relic-node-js-agent-to-monitor-geddy-applications</id>
+    <content type="html"><![CDATA[<p>Having used <a href="http://bit.ly/1pWLIgB">New Relic</a> for other projects we of course jumped on the chance to get started with <a href="http://bit.ly/1fCU83P">New Relic for Node.js</a> when our sales contact reached out to us right after their beta ended. We’ve got several projects using <a href="http://bit.ly/1pWLHcA">Geddy</a>, which is not supported out of the box, so we had to do some customization.</p>
+
+<!-- more -->
+
+<blockquote>
+  <p>Pinpoint and solve your Node.js application performance issues! New Relic is the only tool you’ll need to see everything in your data intensive, real-time, Node.js applications—from application response times to server monitoring.</p>
+</blockquote>
+
+<p>New Relic for Node.js officially launched today, and the <a href="http://bit.ly/1fCU83Q">original press release</a> includes a short tutorial on how to get started, which we will also cover in this article.</p>
+
+<h2 id="create-a-new-geddy-project">Create a new Geddy project</h2>
+
+<p>Create a new Geddy project.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ geddy gen app newrelic-test
+$ cd newrelic-test
+</code></pre>
+</div>
+
+<p>Let’s start with installing the New Relic Node.js agent.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ npm install newrelic --save
+</code></pre>
+</div>
+
+<h2 id="configuring-geddy-and-new-relic">Configuring Geddy and New Relic</h2>
+
+<p>Once you have installed the agent, you need to copy the configuration file into the root of your project.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ cp ./node_modules/newrelic/newrelic.js .
+</code></pre>
+</div>
+
+<p>Open <code class="highlighter-rouge">newrelic.js</code> and change the value for <strong>app_name</strong> to the name of your application. Replace the value of <strong>license_key</strong> with your actual license key which you get from New Relic. We also change <strong>logging.level</strong> from <em>“trace”</em> to <em>“info”</em> to avoid agent log spam.</p>
+
+<p>In order for New Relic to be able to properly report for your application we need to create a startup file since we can’t run this with the <code class="highlighter-rouge">geddy</code> command like we normally do locally.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ npm install geddy --save
+</code></pre>
+</div>
+
+<p>Create a new file in your project root called <code class="highlighter-rouge">app.js</code> and add the following to that file to get New Relic up and running in your Geddy project:</p>
+
+<figure class="highlight"><figcaption>File: app.js</figcaption><pre><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">geddy</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'geddy'</span><span class="p">);</span>
+
+<span class="nx">geddy</span><span class="p">.</span><span class="nx">startCluster</span><span class="p">({</span>
+  <span class="na">hostname</span><span class="p">:</span> <span class="s1">'0.0.0.0'</span>
+<span class="p">,</span> <span class="na">port</span><span class="p">:</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">PORT</span> <span class="o">||</span> <span class="s1">'4000'</span>
+<span class="p">,</span> <span class="na">environment</span><span class="p">:</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">NODE_ENV</span> <span class="o">||</span> <span class="s1">'development'</span>
+<span class="p">});</span></code></pre></figure>
+
+<h2 id="loading-new-relic">Loading New Relic</h2>
+
+<p>Load New Relic in your <code class="highlighter-rouge">config/init.js</code> script.</p>
+
+<figure class="highlight"><figcaption>File: config/init.js</figcaption><pre><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">cluster</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'cluster'</span><span class="p">);</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nx">cluster</span><span class="p">.</span><span class="nx">isWorker</span> <span class="o">&amp;&amp;</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">NODE_ENV</span> <span class="o">==</span> <span class="s1">'production'</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">NEW_RELIC_LOG</span> <span class="o">=</span> <span class="s1">'stdout'</span><span class="p">;</span>
+  <span class="nx">geddy</span><span class="p">.</span><span class="nx">newrelic</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'newrelic'</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>We only require the New Relic module if we’re running in production. You can always remove the <code class="highlighter-rouge">if</code> statement around <code class="highlighter-rouge">require('newrelic')</code> if that makes more sense to you. We also prefer that New Relic logs to <code class="highlighter-rouge">stdout</code> instead of to a log file since we host on various different platforms and we might not want files to be created at all.</p>
+
+<h2 id="scaffold-test-endpoint">Scaffold test endpoint</h2>
+
+<p>We need something to report on, so let’s scaffold an endpoint for our application to report on.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ geddy gen scaffold user username:string email:string
+</code></pre>
+</div>
+
+<p>You’ll see output similar to this:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>[Added] app/models/user.js
+[Added] db/migrations/20131024163436_create_users.js
+[Added] test/models/user.js
+[Added] test/controllers/users.js
+[Added] app/controllers/users.js
+[Added] Resource users route added to config/router.js
+[Added] View templates
+</code></pre>
+</div>
+
+<h2 id="name-requests-properly-in-geddy">Name requests properly in Geddy</h2>
+
+<p>Open up <code class="highlighter-rouge">app/controllers/application.js</code> and change its contents to the following:</p>
+
+<figure class="highlight"><figcaption>File: app/controllers/application.js</figcaption><pre><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">Application</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">before</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">geddy</span><span class="p">.</span><span class="nx">newrelic</span><span class="p">.</span><span class="nx">setControllerName</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">params</span><span class="p">.</span><span class="nx">controller</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">params</span><span class="p">.</span><span class="nx">action</span><span class="p">);</span>
+  <span class="p">});</span>
+<span class="p">};</span>
+
+<span class="nx">exports</span><span class="p">.</span><span class="nx">Application</span> <span class="o">=</span> <span class="nx">Application</span><span class="p">;</span></code></pre></figure>
+
+<p>We are using <code class="highlighter-rouge">newrelic.setControllerName()</code> to name our requests so that they do not all get grouped under <code class="highlighter-rouge">/*</code> or similar in New Relic.</p>
+
+<h2 id="run-your-application">Run your application</h2>
+
+<p>Running our application with Node is simple:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ node app
+</code></pre>
+</div>
+
+<p>Navigate to <a href="http://localhost:4000/">http://localhost:4000/</a> and then <a href="http://localhost:4000/users">http://localhost:4000/users</a> where you can start adding, editing, and removing users to get some sample data in your New Relic account.</p>
+
+<p>Once you start your application you will begin to see data in New Relic within five minutes and your brand new Node.js application will be accessible from your New Relic dashboard.</p>
+
+<h2 id="repository">Repository</h2>
+
+<p>You can take a look at our example repository if you want to make sure you didn’t miss anything.</p>
+
+<p><a href="http://bit.ly/1pWLIgG" class="button"><i class="fa fa-bitbucket"></i> Fork on Bitbucket</a></p>
+
+<h2 id="documentation">Documentation</h2>
+
+<p>For more information, please see the <a href="http://geddyjs.org/reference#controllers.params">Geddy documentation</a> on controllers as well as the <a href="https://github.com/newrelic/node-newrelic/#transactions-and-request-naming">New Relic Node.js project</a>.</p>
+
+<h2 id="thank-yous">Thank yous</h2>
+
+<p>Thanks to <a href="https://github.com/ben-ng">Ben Ng</a> for finding the memory leak issue with New Relic and for supplying a fix.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Magento: Generic URL Rewrite Importer]]></title>
+    <link href="http://xorcode.com/code/2013/09/15/magento-generic-url-rewrite-importer.html/"/>
+    <updated>2013-09-15T12:26:00+00:00</updated>
+    <id>http://xorcode.com/code/2013/09/15/magento-generic-url-rewrite-importer</id>
+    <content type="html"><![CDATA[<p>Ever needed to import a large set of generic URL rewrites into Magento? The Generic URL Rewrite Importer for Magento helps you do just that!
+<!--more-->
+Xorcode just moved a sizable e-commerce site from <a href="http://xorcode.net/193sDO2">WordPress</a>/<a href="http://xorcode.net/193sCtt">WooCommerce</a> to <a href="http://xorcode.net/1efkdKU">Magento</a>. We faced the daunting task of creating over 20,000 URL rewrites since the URL slug structure of Magento ended up being slightly different from what WordPress created.</p>
+
+<p>Manually entering 20,000+ URL rewrites didn’t sound like fun, so we looked at other options. We could buy an extension, or we could write our own for this specific task. We choose to roll our own. Since we wrote it, we’ll share it with you, for free. If you use it and like it, you can always <a href="https://flattr.com/profile/xorcode">Flattr</a> this article, or send us a donation with PayPal.</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="SADU3WX2H6CFY" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<h3 id="usage">Usage</h3>
+
+<p>Install the extension in your Magento site by logging into your admin panel and going to <em>Magento Connect Manager</em>, which is under the <em>System</em> menu. Once there, use the <strong>Direct package file upload</strong> option and upload the package file supplied with this article.</p>
+
+<p><a href="http://xorcode.net/1bwM9dc" class="button"><i class="fa fa-download"></i> Download URL Rewrite Importer</a></p>
+
+<h3 id="creating-an-import-profile">Creating an import profile</h3>
+
+<p>Once you have installed the package you need to create a new <strong>Advanced Dataflow Profile</strong>, you can find this under <em>System &gt; Import/Export &gt; Dataflow - Advanced Profiles</em>. Create your profile, name it anything you want, we suggest “Xorcode Dataflow Urlrewrite Importer.”</p>
+
+<p>Enter the following <abbr title="eXtended Markup Language">XML</abbr> in the <em>Actions XML</em> field:</p>
+
+<div class="language-xml highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;action</span> <span class="na">type=</span><span class="s">"dataflow/convert_adapter_io"</span> <span class="na">method=</span><span class="s">"load"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"type"</span><span class="nt">&gt;</span>file<span class="nt">&lt;/var&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"path"</span><span class="nt">&gt;</span>var/import<span class="nt">&lt;/var&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"filename"</span><span class="nt">&gt;</span><span class="cp">&lt;![CDATA[url_rewrites.csv]]&gt;</span><span class="nt">&lt;/var&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"format"</span><span class="nt">&gt;</span><span class="cp">&lt;![CDATA[csv]]&gt;</span><span class="nt">&lt;/var&gt;</span>
+<span class="nt">&lt;/action&gt;</span>
+<span class="nt">&lt;action</span> <span class="na">type=</span><span class="s">"dataflow/convert_parser_csv"</span> <span class="na">method=</span><span class="s">"parse"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"delimiter"</span><span class="nt">&gt;</span><span class="cp">&lt;![CDATA[,]]&gt;</span><span class="nt">&lt;/var&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"enclose"</span><span class="nt">&gt;</span><span class="cp">&lt;![CDATA["]]&gt;</span><span class="nt">&lt;/var&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"fieldnames"</span><span class="nt">&gt;</span>true<span class="nt">&lt;/var&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"store"</span><span class="nt">&gt;</span><span class="cp">&lt;![CDATA[default]]&gt;</span><span class="nt">&lt;/var&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"options"</span><span class="nt">&gt;</span><span class="cp">&lt;![CDATA[RP]]&gt;</span><span class="nt">&lt;/var&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"number_of_records"</span><span class="nt">&gt;</span>50<span class="nt">&lt;/var&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"decimal_separator"</span><span class="nt">&gt;</span><span class="cp">&lt;![CDATA[.]]&gt;</span><span class="nt">&lt;/var&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"adapter"</span><span class="nt">&gt;</span>dataflow/convert_adapter_urlrewrite<span class="nt">&lt;/var&gt;</span>
+    <span class="nt">&lt;var</span> <span class="na">name=</span><span class="s">"method"</span><span class="nt">&gt;</span>parse<span class="nt">&lt;/var&gt;</span>
+<span class="nt">&lt;/action&gt;</span>
+</code></pre>
+</div>
+
+<p>You may wish to change the value of <code class="highlighter-rouge">store</code> and <code class="highlighter-rouge">options</code> to something other than the defaults provided. For instance, if your store’s name is <strong>Example</strong>, enter <code class="highlighter-rouge">example</code> in the <abbr title="Character Data">CDATA</abbr> for the <code class="highlighter-rouge">store</code> var.</p>
+
+<p>Upload a file called <code class="highlighter-rouge">url_rewrites.csv</code> to your web server and place it in the <code class="highlighter-rouge">var/import</code> folder of your Magento folder. You may have to create the <code class="highlighter-rouge">var/import</code> folder.</p>
+
+<p>Now you are ready to run the profile. Click the <strong>Run Profile</strong> tab on the Dataflow profile, then click <strong>Run Profile in Popup</strong> and wait for magic.</p>
+
+<p>If you have any suggestions, ideas, or bug reports, please <a href="http://xorcode.net/193vmHs">file issues in our repository</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Solarized Dark theme for Textual]]></title>
+    <link href="http://xorcode.com/code/2013/08/23/solarized-dark-theme-for-textual.html/"/>
+    <updated>2013-08-23T14:43:00+00:00</updated>
+    <id>http://xorcode.com/code/2013/08/23/solarized-dark-theme-for-textual</id>
+    <content type="html"><![CDATA[<p>After looking through the available themes for <a href="http://xorcode.net/1azypgm">Textual</a>, one of the best <abbr title="Internet Relay Chat">IRC</abbr> clients for <a href="http://xorcode.net/1azyXCX">Mac OS X</a>, we decided to roll our own Solarized Dark theme by cloning the Sapientia theme packaged with Textual.</p>
+
+<!--more-->
+
+<blockquote>
+  <p>Textual is a lightweight IRC client created specifically for Mac OS X. It was designed with simplicity in mind. Textual has taken the best of IRC and built it into a single client. Its easy-to-use functionality combined with scripting support makes it an ideal IRC client for novice to advanced users.</p>
+</blockquote>
+
+<h2 id="installation">Installation</h2>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span><span class="nb">cd</span> ~/Library/Containers/com.codeux.irc.textual/Data/Library/Application<span class="se">\ </span>Support/Textual<span class="se">\ </span>IRC/Styles/
+<span class="gp">$ </span>git clone https://github.com/Xorcode/textual-solarized-dark.git
+</code></pre>
+</div>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Feel free to fork our repository to contribute changes, bug fixes, and features. If you run into any problems with the theme, please create an <a href="http://xorcode.net/1azz9C6">issue</a>.</p>
+
+<p><a class="button" href="http://xorcode.net/1azzioV"><i class="fa fa-github"></i> Fork textual-solarized-dark on Github</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Started with Node.js #2: Using OAuth2 in MEAN applications]]></title>
+    <link href="http://xorcode.com/code/2013/08/22/getting-started-with-node-js-using-oauth2-in-mean.html/"/>
+    <updated>2013-08-22T10:48:00+00:00</updated>
+    <id>http://xorcode.com/code/2013/08/22/getting-started-with-node-js-using-oauth2-in-mean</id>
+    <content type="html"><![CDATA[<p>Once you have an application based on <a href="http://xorcode.net/17N7RmC">MEAN</a> you may want to secure the <abbr title="Application Programming Interface">API</abbr> end-points. At Xorcode we use <a href="http://xorcode.net/17N7SH8">OAuth2</a> for securing <abbr title="REpresentational State Transfer">REST</abbr> API end-points. OAuth can be cumbersome for web applications, though it is perfect for native desktop and mobile applications.</p>
+
+<!--more-->
+
+<p class="alert alert-info">This article would not exist if it wasn't for <strong>willwh</strong> from the <strong>#node.js</strong> channel on <a href="http://xorcode.net/17N68O4">FreeNode</a> who asked how to connect MEAN to an iOS application.</p>
+
+<p>In order to make this tutorial lesson easier to understand we have created a branch of MEAN which you can checkout and toy around with.</p>
+
+<p><a href="http://xorcode.net/1av99Yo" class="button"><i class="fa fa-github"></i> Clone our MEAN repository</a></p>
+
+<p>In order to use OAuth2 with MEAN we first need to modify <code class="highlighter-rouge">package.json</code> to include the relevant Node.js modules that we need to use in order to enable support for OAuth authentication.</p>
+
+<figure class="highlight"><figcaption>File: package.json</figcaption><pre><code class="language-json" data-lang="json"><span class="p">{</span><span class="w">
+  </span><span class="nt">"dependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"passport-http"</span><span class="p">:</span><span class="w"> </span><span class="s2">"latest"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"passport-http-bearer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"latest"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"passport-oauth2-client-password"</span><span class="p">:</span><span class="w"> </span><span class="s2">"latest"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"oauth2orize"</span><span class="p">:</span><span class="w"> </span><span class="s2">"latest"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"debug"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~0.7.2"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+<p>We also added the debug module since it’s used by <strong>oauth2orize</strong> and we decided to use the same pattern for our additions to mean.</p>
+
+<p>Update the dependencies in your mean project:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>npm install
+</code></pre>
+</div>
+
+<h2 id="creating-supporting-models">Creating supporting Models</h2>
+
+<p>OAuth needs to store tokens somewhere so we’ll create the required Mongoose schemas for use with oauth2orize and Passport.</p>
+
+<ul>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/app/models/oauth_client.js">app/models/oauth_client.js</a></li>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/app/models/access_token.js">app/models/access_token.js</a></li>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/app/models/request_token.js">app/models/request_token.js</a></li>
+</ul>
+
+<p>The <strong>OAuthClient</strong> model serves as the foundation of this data structure. Each <strong>AccessToken</strong> and <strong>RequestToken</strong> is bound to a client and a user. When a client (web/mobile/desktop) requests permissions to access a user’s data, it identifies itself with its key.</p>
+
+<p>RequestTokens are used during the interchange between the client and the server as a request for an AccessToken takes place.</p>
+
+<p>AccessTokens are the final result of the OAuth2 transaction. They serve as the “password” used by the client to access the user’s data.</p>
+
+<h2 id="adding-crud-for-oauth-clients">Adding CRUD for OAuth Clients</h2>
+
+<p>The only part of OAuth that our application’s users can directly interact with are the Clients. In Twitter and Facebook terms, these are “Applications.” We have created the necessary scaffolds for you:</p>
+
+<ul>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/config/middlewares/authorization.js">config/middlewares/authentication.js</a></li>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/app/controllers/clients.js">app/controllers/clients.js</a></li>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/public/js/controllers/clients.js">public/js/controllers/clients.js</a></li>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/public/js/services/clients.js">public/js/services/clients.js</a></li>
+</ul>
+
+<p>These controllers with their accompanying views are basic. Feel free to modify them to your needs. You may for instance want to add verification of the redirect URI by adding a <code class="highlighter-rouge">redirectUri</code> field to the OAuthClient schema, that way you can ensure that clients cannot be used to redirect to a site that may have nefarious intent.</p>
+
+<p>We also need to modify some existing files in mean:</p>
+
+<ul>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/public/js/config.js">public/js/config.js</a></li>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/public/js/controllers/header.js">public/js/controllers/header.js</a></li>
+</ul>
+
+<p>This will set up our client-side routes and make sure that the application responds properly when we want to edit/view clients.</p>
+
+<ul>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/config/routes.js">config/routes.js</a></li>
+</ul>
+
+<p>Finally we need to add some routes to our router.</p>
+
+<figure class="highlight"><figcaption>File: config/routes.js</figcaption><pre><code class="language-js" data-lang="js">    <span class="c1">//Client Routes</span>
+    <span class="kd">var</span> <span class="nx">clients</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'../app/controllers/clients'</span><span class="p">);</span>
+    <span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'/clients'</span><span class="p">,</span> <span class="nx">clients</span><span class="p">.</span><span class="nx">all</span><span class="p">);</span>
+    <span class="nx">app</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="s1">'/clients'</span><span class="p">,</span> <span class="nx">auth</span><span class="p">.</span><span class="nx">requiresLogin</span><span class="p">,</span> <span class="nx">clients</span><span class="p">.</span><span class="nx">create</span><span class="p">);</span>
+    <span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'/clients/:clientId'</span><span class="p">,</span> <span class="nx">clients</span><span class="p">.</span><span class="nx">show</span><span class="p">);</span>
+    <span class="nx">app</span><span class="p">.</span><span class="nx">put</span><span class="p">(</span><span class="s1">'/clients/:clientId'</span><span class="p">,</span> <span class="nx">auth</span><span class="p">.</span><span class="nx">requiresLogin</span><span class="p">,</span> <span class="nx">auth</span><span class="p">.</span><span class="nx">client</span><span class="p">.</span><span class="nx">hasAuthorization</span><span class="p">,</span> <span class="nx">clients</span><span class="p">.</span><span class="nx">update</span><span class="p">);</span>
+    <span class="nx">app</span><span class="p">.</span><span class="nx">del</span><span class="p">(</span><span class="s1">'/clients/:clientId'</span><span class="p">,</span> <span class="nx">auth</span><span class="p">.</span><span class="nx">requiresLogin</span><span class="p">,</span> <span class="nx">auth</span><span class="p">.</span><span class="nx">client</span><span class="p">.</span><span class="nx">hasAuthorization</span><span class="p">,</span> <span class="nx">clients</span><span class="p">.</span><span class="nx">destroy</span><span class="p">);</span></code></pre></figure>
+
+<p>Once we have this up and running, we’re ready to create clients.</p>
+
+<h2 id="the-oauth2-permissions-dialog">The OAuth2 Permissions Dialog</h2>
+
+<p>Once a user wants to connect to our service from somewhere – like a mobile application – we need to get their permission first.</p>
+
+<ul>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/app/views/oauth/dialog.jade">app/views/oauth/dialog.jade</a></li>
+</ul>
+
+<p>If you are familiar with Twitter or Facebook, you know that these sites ask for your permission when you want to connect them to another site or application. We will do the same for our users.</p>
+
+<h2 id="oauth2-express-middleware">OAuth2 Express Middleware</h2>
+
+<p>In order to integrate OAuth2 into our application we need to make several modifications to existing files as well as add a few new files. First up we will modify our Passport middleware.</p>
+
+<ul>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/config/passport.js">config/passport.js</a></li>
+</ul>
+
+<p>We need to add Passport strategies for basic authentication, client password authentication, and bearer authentication.</p>
+
+<ul>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/config/routes.js">config/routes.js</a></li>
+</ul>
+
+<p>Once we have added the passport strategies, we need to add a few new routes to allow clients to interact with our OAuth end-points.</p>
+
+<figure class="highlight"><figcaption>File: config/routes.js</figcaption><pre><code class="language-js" data-lang="js">    <span class="kd">var</span> <span class="nx">oauth2</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'./middlewares/oauth2'</span><span class="p">);</span>
+    <span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'/oauth/authorize'</span><span class="p">,</span> <span class="nx">auth</span><span class="p">.</span><span class="nx">requiresLogin</span><span class="p">,</span> <span class="nx">oauth2</span><span class="p">.</span><span class="nx">authorization</span><span class="p">,</span> <span class="nx">oauth2</span><span class="p">.</span><span class="nx">dialog</span><span class="p">);</span>
+    <span class="nx">app</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="s1">'/oauth/authorize/decision'</span><span class="p">,</span> <span class="nx">auth</span><span class="p">.</span><span class="nx">requiresLogin</span><span class="p">,</span> <span class="nx">oauth2</span><span class="p">.</span><span class="nx">server</span><span class="p">.</span><span class="nx">decision</span><span class="p">());</span>
+    <span class="nx">app</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="s1">'/oauth/token'</span><span class="p">,</span> <span class="nx">oauth2</span><span class="p">.</span><span class="nx">token</span><span class="p">);</span></code></pre></figure>
+
+<p>These three new routes use our oauth2orize server.</p>
+
+<ul>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/config/middlewares/oauth2.js">config/middlewares/oauth2.js</a></li>
+</ul>
+
+<p>The server definition contains definitions for grants, exchanges, and authorization hooks for Passport and Express.</p>
+
+<h2 id="common-functionality">Common functionality</h2>
+
+<p>The OAuth2 code that we have added share some common functionality. We have added these shared methods in a file that you can drop into your project.</p>
+
+<ul>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/app/lib/utils.js">app/lib/utils.js</a></li>
+</ul>
+
+<p>These methods are used by the OAuth2 key generator.</p>
+
+<h2 id="testing-your-implementation">Testing your implementation</h2>
+
+<p>In order to make sure that you have set everything up correctly, we recommend that you test things out locally before deploying to a server. We have supplied a very basic Express server with which you can test your implementation before you deploy to a server somewhere.</p>
+
+<ul>
+  <li><a href="https://github.com/Xorcode/mean/blob/passport-oauth/scripts/server.js">scripts/server.js</a></li>
+</ul>
+
+<p>Create a new client and modify the OAuth2 configuration in <code class="highlighter-rouge">server.js</code> with the key and secret of your new client.</p>
+
+<p>This example assumes that your main mean server runs on port 3000 and that your testing server runs on port 4000.</p>
+
+<p>Start your main server:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span><span class="nv">DEBUG</span><span class="o">=</span>oauth2orize,oauth2 node server.js
+  oauth2orize register parser code request +0ms
+  oauth2orize register responder code response +2ms
+  oauth2orize register parser token request +1ms
+  oauth2orize register responder token response +0ms
+  oauth2orize register exchanger authorization_code authorization_code +0ms
+  oauth2orize register exchanger password password +1ms
+Express app started on port 3000
+</code></pre>
+</div>
+
+<p>Then start the testing server:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span><span class="nb">cd </span>scripts
+<span class="gp">$ </span>npm install
+<span class="gp">$ </span><span class="nv">NODE_DEBUG</span><span class="o">=</span><span class="nb">true </span>node server.js
+listening on port 4000
+</code></pre>
+</div>
+
+<p>Once the server’s up and running you can navigate to http://localhost:4000/ to test your implementation by clicking on the “Authenticate with Service” link. Clicking the link will take you to the OAuth dialog of your main mean application.</p>
+
+<p>You should see something like this in your console log:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code>  oauth2orize parse:request +42s
+  oauth2orize parse:request +0ms
+  oauth2 authorization:  +0ms pEdDoXEgEpSbkAzN http://localhost:4000/callback
+  oauth2 authorization:  +3ms null <span class="o">{</span> clientSecret: <span class="s1">'unpYdLS16rlS7ITa1vVOD7hwJ8ZRzTkV'</span>,
+  clientKey: <span class="s1">'pEdDoXEgEpSbkAzN'</span>,
+  name: <span class="s1">'Web'</span>,
+  _id: 52115d123265413b29000001,
+  __v: 0,
+  created: Sun Aug 18 2013 19:47:30 GMT-0400 <span class="o">(</span>EDT<span class="o">)</span> <span class="o">}</span>
+</code></pre>
+</div>
+
+<p>Once you click “Allow” you should be taken back to the testing server where your access token should be printed.</p>
+
+<p>The console output on your testing server should look like this:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code>OAuth2 Node Request
+Simple OAuth2: Making the HTTP request <span class="o">{</span> uri: <span class="s1">'http://localhost:3000/oauth/token'</span>,
+  method: <span class="s1">'POST'</span>,
+  headers: <span class="o">{</span> Authorization: <span class="s1">'Basic cEVkRG9YRWdFcFNia0F6Tjp1bnBZZExTMTZybFM3SVRhMXZWT0Q3aHdKOFpSelRrVg=='</span> <span class="o">}</span>,
+  form: 
+   <span class="o">{</span> code: <span class="s1">'dEErLArE919sZ38E'</span>,
+     redirect_uri: <span class="s1">'http://localhost:4000/callback'</span>,
+     grant_type: <span class="s1">'authorization_code'</span>,
+     client_id: <span class="s1">'pEdDoXEgEpSbkAzN'</span>,
+     secret: <span class="s1">'unpYdLS16rlS7ITa1vVOD7hwJ8ZRzTkV'</span> <span class="o">}</span> <span class="o">}</span>
+Simple OAuth2: checking response body <span class="o">{</span><span class="s2">"access_token"</span>:<span class="s2">"PE6XthpfpWcc8Veu6DC6ZLJ9lwLoqljmZ10nDMvtdFHkEKbCxyvlUBLNpTKC4Vb2cNUM2kUJqJJj9djaYbrpEWAdMBJnxWzJTUiayA9I45FBwEOxGifG9R2E9x3xiXHf52F5rAYRMQdKne1qfPe8uloxNIJ23u14bupRA3W5d3JXt8zQEcXV1Rc3C8rIbIGwMPUO8MKdW2CRwk6jDp4ksMGThpK7MpYVITxrDdvpAI11CRtiyX320AZ6I5lnwv3f"</span>,<span class="s2">"token_type"</span>:<span class="s2">"bearer"</span><span class="o">}</span>
+</code></pre>
+</div>
+
+<p>You are now ready to use the access token through the Bearer strategy.</p>
+
+<p>Our next article will explain how to secure particular parts of your application with the methods you have learned in this lesson.</p>
+
+<ul class="jekyll-series"><li><a href="/code/2013/08/15/getting-started-with-node-js-using-mean.html/">Getting Started with Node.js #1: Using the MEAN Stack</a></li><li class="active"><a href="/code/2013/08/22/getting-started-with-node-js-using-oauth2-in-mean.html/">Getting Started with Node.js #2: Using OAuth2 in MEAN applications</a></li></ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Supporting Liquid Templates in Wintersmith]]></title>
+    <link href="http://xorcode.com/code/2013/08/22/supporting-liquid-templates-in-wintersmith.html/"/>
+    <updated>2013-08-22T08:55:00+00:00</updated>
+    <id>http://xorcode.com/code/2013/08/22/supporting-liquid-templates-in-wintersmith</id>
+    <content type="html"><![CDATA[<p>We’ve gotten used to <a href="https://github.com/Shopify/liquid/">Liquid</a> from using <a href="http://xorcode.net/13Tvyaq">Jekyll</a> and <a href="http://xorcode.net/13TvzLx">Octopress</a>. When we took <a href="http://xorcode.net/13TvDuX">Wintersmith</a> for a spin we sort of missed Liquid. So we created a template plugin for Liquid that uses the <a href="http://xorcode.net/13TtSOc">liquid-node</a> module to render Liquid templates.</p>
+
+<!--more-->
+
+<blockquote>
+  <p>Liquid plugin for Wintersmith, uses liquid-node to take advantage of asynchronous behavior. The <strong>liquid-node</strong> module uses Q internally and thus we can take advantage of this in our template plugin.</p>
+</blockquote>
+
+<p>Template plugins for Wintersmith are quite easy to write. We published ours on <a href="http://xorcode.net/13Tu00a">npm</a> after a few minutes after initially having been confounded by <a href="http://xorcode.net/13TuZxs">CoffeeScript</a>. Bonus: now we know how to write CoffeeScript!</p>
+
+<h2 id="installation-instructions">Installation instructions</h2>
+
+<p>Navigate to the folder you created with <code class="highlighter-rouge">wintersmith new</code> and run</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>npm install wintersmith-liquid --save
+</code></pre>
+</div>
+
+<p>Once you have installed the plugin you need to modify your <code class="highlighter-rouge">config.json</code> and add <code class="highlighter-rouge">wintersmith-liquid</code> to the list of plugins for your site.</p>
+
+<p>Templates with the <code class="highlighter-rouge">.html</code> extensions are parsed with Liquid.</p>
+
+<p><a href="http://xorcode.net/13TudAo" class="button"><i class="fa fa-bitbucket"></i> Clone wintersmith-liquid on Bitbucket</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Started with Node.js #1: Using the MEAN Stack]]></title>
+    <link href="http://xorcode.com/code/2013/08/15/getting-started-with-node-js-using-mean.html/"/>
+    <updated>2013-08-15T13:05:00+00:00</updated>
+    <id>http://xorcode.com/code/2013/08/15/getting-started-with-node-js-using-mean</id>
+    <content type="html"><![CDATA[<p>Just like us here at Xorcode, <a href="http://bit.ly/17V0qIS">Linnovate</a> likes to contribute to the community. They have created an awesome Node.js boilerplate called <a href="http://bit.ly/17V0sk1"><abbr title="MongoDB, Express, Angular, Node.js">MEAN</abbr></a>, which we will show you how to get up and running with in a short time.</p>
+
+<!--more-->
+
+<p>The MEAN stack utilizes AngularJS to declare dynamic views for use with both browser-based script as well as views on the server itself. AngularJS sits on top of Express, a stable and flexible web application framework with great community support. The boilerplate also uses Mongoose, a MongoDB object modeling framework for Node.js.</p>
+
+<blockquote>
+  <p>MEAN is a boilerplate that provides a nice starting point for MongoDB, Node.js, Express, and AngularJS based applications. It is designed to give you quick and organized way to start developing of MEAN based web apps with useful modules like mongoose and passport pre-bundled and configured. We mainly try to take care of the connection points between existing popular frameworks and solve common integration problems.</p>
+</blockquote>
+
+<h2 id="getting-started-with-nodejs">Getting started with Node.js</h2>
+
+<p>If you haven’t already installed Node.js on your development machine, now is the time to do so. Node.js provides installers for Mac OS X and Windows, and source code for other systems.</p>
+
+<blockquote>
+  <p>Node.js is a platform built on <a href="http://bit.ly/14VWkSY">Chrome’s JavaScript runtime</a> for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</p>
+</blockquote>
+
+<h3 id="installing-nodejs-on-windows-or-mac">Installing Node.js on Windows or Mac</h3>
+
+<ul>
+  <li>Go to <a href="http://bit.ly/17fJaim">nodejs.org</a> and click the INSTALL button. Your browser will download the install package, which can then be installed the usual way depending on operating system.</li>
+  <li>Your development system should now be ready to use Node.js on the command line.</li>
+</ul>
+
+<p>Open a terminal to verify Node.js installation:</p>
+
+<h4 id="mac-os-x">Mac OS X</h4>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="gp">$ </span>node --version
+v0.11.5</code></pre></figure>
+
+<h4 id="windows">Windows</h4>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">C:\&gt; </span>node.exe --version
+v0.11.5
+</code></pre>
+</div>
+
+<p>If you get similar output from running node in your terminal, you are ready to proceed!</p>
+
+<h3 id="installing-nodejs-on-linux">Installing Node.js on Linux</h3>
+
+<p>You can either use your package manager to install Node.js on your system, or follow the instructions for other systems.</p>
+
+<h4 id="apt-based-systems-ubuntudebian">Apt-based systems (Ubuntu/Debian)</h4>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo apt-get install node
+</code></pre>
+</div>
+
+<h4 id="yum-based-systems-redhatfedora">Yum-based systems (Redhat/Fedora)</h4>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo yum install node
+</code></pre>
+</div>
+
+<h3 id="installing-nodejs-on-other-systems">Installing Node.js on other systems</h3>
+
+<ul>
+  <li>Go to <a href="http://bit.ly/1bHwUuj">nodejs.org</a> and select your desired binaries or source code.</li>
+</ul>
+
+<h2 id="getting-started-with-mean">Getting started with MEAN</h2>
+
+<p>Once you have installed Node.js in your development environment, it’s time to get MEAN.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>git clone https://github.com/linnovate/mean
+<span class="gp">$ </span><span class="nb">cd</span> ./mean
+</code></pre>
+</div>
+
+<p><a href="https://github.com/linnovate/mean" class="button"><i class="fa fa-github"></i> Clone MEAN on Github</a></p>
+
+<h3 id="starting-the-application">Starting the application</h3>
+
+<p>Linnovate recommends using Grunt to start the server:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>grunt
+</code></pre>
+</div>
+
+<p>Alternatively you can start the server directly with the <code class="highlighter-rouge">node</code> command line inteface:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>node server
+</code></pre>
+</div>
+
+<p>Then open a browser and go to:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>http://localhost:3000
+</code></pre>
+</div>
+
+<h3 id="configurating-mean">Configurating MEAN</h3>
+
+<p>All configurations are specified in the <code class="highlighter-rouge">config</code> folder of your project, with <code class="highlighter-rouge">config.js</code> as the main starting point. Edit these files to specify your application name, database setup, as well as social applications such as Twitter, Facebook, Github, and Google.</p>
+
+<h4 id="environmental-settings">Environmental Settings</h4>
+
+<p>MEAN support three environments out of the box: <strong>development</strong>, <strong>test</strong>, and <strong>production</strong>. Each of the environments has the following configuration options:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">db</code> - Name of the application database, which is set to <code class="highlighter-rouge">mean-dev</code> by default.</li>
+  <li><code class="highlighter-rouge">root</code> - Determined automatically by the configuration file, but it can be overridden in the configuration if so desired.</li>
+  <li><code class="highlighter-rouge">app.name</code> - Name of the application or website. Can be different for each environment. That way you can tell what environment you are running simply by looking at the TITLE attribute that your application generates.</li>
+</ul>
+
+<p>To run with a different environment when you start MEAN, just specify <code class="highlighter-rouge">NODE_ENV</code> when you start your application.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span><span class="nv">NODE_ENV</span><span class="o">=</span><span class="nb">test </span>grunt
+<span class="gp">$ </span><span class="nv">NODE_ENV</span><span class="o">=</span><span class="nb">test </span>node server
+</code></pre>
+</div>
+
+<div class="alert alert-info"><span class="label label-info">Heads Up!</span> Running MEAN in production enables caching, which will prevent certain parts of your application from being updated when you re-save them.</div>
+
+<h3 id="examining-the-example">Examining the Example</h3>
+
+<p>MEAN includes an example that defines model object schemas, a back-end controller, routes, AngularJS <abbr title="Create, Update, Delete">CRUD</abbr> routes, an AngularJS <abbr title="Representational State Transfer">REST</abbr> service, an AngularJS front-end controller, and AngularJS views for CRUD.</p>
+
+<h4 id="model">Model</h4>
+
+<p>Our model defines an Article schema for use with the example application. Here we define fields included in the schema as well as utility methods used by the model.</p>
+
+<h4 id="back-end-controller">Back-End Controller</h4>
+
+<p>The back-end controller contains methods for listing articles, finding articles, showing an article, as well as creating, updating, and deleting a specific article. This controller responds with <abbr title="JSON with Padding">JSONP</abbr> payloads.</p>
+
+<h4 id="routes">Routes</h4>
+
+<p>Routes for the index page, user-related tasks such as signing up and logging in, routes for social services such as Twitter and Facebook, and finally they define the routes that are used for the articles that are part of the example.</p>
+
+<h4 id="angularjs-routes">AngularJS routes</h4>
+
+<p>This file defines the routes that are used by the front-end to list, view, and edit articles as well as display the home page.</p>
+
+<h4 id="angularjs-service">AngularJS service</h4>
+
+<p>AngularJS service for mapping to the REST API provided by the back-end.</p>
+
+<h4 id="the-angularjs-controller">The AngularJS Controller</h4>
+
+<p>Front-end controller that handles listing articles, creating, updating, and deleting articles.</p>
+
+<h4 id="angularjs-views">AngularJS Views</h4>
+
+<p>These views are used by AngularJS to render content in the browser for the various routes available for the Articles controller.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>MEAN allows you to quickly bootstrap an application with its ready-to-rock application boilerplate. In a few minutes you have an application ready for use on the web, in mobile browsers, as well as by native desktop and mobile applications.</p>
+
+<ul class="jekyll-series"><li class="active"><a href="/code/2013/08/15/getting-started-with-node-js-using-mean.html/">Getting Started with Node.js #1: Using the MEAN Stack</a></li><li><a href="/code/2013/08/22/getting-started-with-node-js-using-oauth2-in-mean.html/">Getting Started with Node.js #2: Using OAuth2 in MEAN applications</a></li></ul>
+
+<div class="alert">This article is based on the instructions that come with the MEAN stack.</div>
+
+<h3 id="credits">Credits</h3>
+
+<ul>
+  <li><a href="http://bit.ly/17V0qIS">Linnovate</a></li>
+  <li><a href="http://bit.ly/14W68MW">Madhusudhan Srinivasa</a></li>
+  <li>MEAN is licensed under the <a href="http://bit.ly/14W67Ze">MIT License</a></li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Using Backbeam in Titanium™ mobile applications]]></title>
+    <link href="http://xorcode.com/code/2013/08/10/using-backbeam-io-in-titanium-studio-mobile-apps.html/"/>
+    <updated>2013-08-10T19:42:00+00:00</updated>
+    <id>http://xorcode.com/code/2013/08/10/using-backbeam-io-in-titanium-studio-mobile-apps</id>
+    <content type="html"><![CDATA[<p><a href="http://bit.ly/1cV0j5N">Backbeam</a> provides a full-stack backend platform with API SDKs for Node.js/JavaScript, iOS, Android, and browsers. <a href="http://bit.ly/1cV0luh">Titanium™ Studio</a> by Appcelerator<sup>®</sup> is a modern IDE for developers to rapidly build, test, package and publish cross platform, native mobile applications. We thought it was about time they met each other.</p>
+
+<!--more-->
+
+<p>In order to get started with Backbeam in Titanium™ you need only include the <a href="http://bit.ly/1cV27eO">Backbeam JavaScript SDK</a> in your project and you are off to the races.</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">Ti</span><span class="p">.</span><span class="nx">include</span><span class="p">(</span><span class="s1">'/backbeam/hmac-sha1.js'</span><span class="p">)</span>
+<span class="nx">Ti</span><span class="p">.</span><span class="nx">include</span><span class="p">(</span><span class="s1">'/backbeam/enc-base64.js'</span><span class="p">)</span>
+<span class="kd">var</span> <span class="nx">backbeam</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'/backbeam/backbeam'</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<p>Once included, backbeam can be called just as it would be called in a browser or in <a href="http://bit.ly/17fJaim">node.js</a>.</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">backbeam</span><span class="p">.</span><span class="nx">configure</span><span class="p">({</span>
+    <span class="na">project</span><span class="p">:</span> <span class="s1">'your-project-name'</span><span class="p">,</span> <span class="c1">// the subdomain of your project</span>
+    <span class="na">shared</span><span class="p">:</span> <span class="s1">'your-shared-key'</span><span class="p">,</span>
+    <span class="na">secret</span><span class="p">:</span> <span class="s1">'your-secret-secret'</span><span class="p">,</span>
+    <span class="na">env</span><span class="p">:</span> <span class="s1">'dev'</span> <span class="c1">// can be 'dev' or 'pro'</span>
+<span class="p">})</span>
+</code></pre>
+</div>
+
+<p>Please see the documentation for respective product for more in-depth information.</p>
+
+<p><a href="http://bit.ly/17fJyxh" class="button">Titanium™ SDK/Studio Documentation</a> <a href="http://bit.ly/1cV27eO" class="button">Backbeam JavaScript SDK</a></p>
+
+<p><small class="muted">Appcelerator<sup>®</sup> is a trademark of Appcelerator, Inc., registered in the U.S and/or other countries and is used under license.</small></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Node.js: Scaffolding Modern Web Applications with Flatiron]]></title>
+    <link href="http://xorcode.com/code/2013/08/05/node-js-scaffolding-modern-web-applications-with-flatiron.html/"/>
+    <updated>2013-08-05T23:04:00+00:00</updated>
+    <id>http://xorcode.com/code/2013/08/05/node-js-scaffolding-modern-web-applications-with-flatiron</id>
+    <content type="html"><![CDATA[<p>After having used <a href="http://bit.ly/152sQOY">Express</a>, <a href="http://bit.ly/152sQP1">Jade</a>, <a href="http://bit.ly/152sQP4">Stylus</a>, and <a href="http://bit.ly/152sQP5">Mongoose</a> for quite some time we decided to try something new. Enter <a href="http://bit.ly/152sPKM">Flatiron</a>, <a href="http://bit.ly/152sPKN">Union</a>, <a href="http://bit.ly/152sPKP">Director</a>, <a href="http://bit.ly/152sPKQ">Plates</a>, and <a href="http://bit.ly/12Wldzi">Resourceful</a>.</p>
+
+<!--more-->
+
+<blockquote>
+  <p>No one agrees on frameworks. It’s difficult to get consensus on how much or how little a framework should do. Flatiron’s approach is to package simple to use yet full featured components and let developers subtract or add what they want.</p>
+</blockquote>
+
+<p>Flatiron supports application boilerplates as well as straight inclusion in your <code class="highlighter-rouge">package.json</code> file.</p>
+
+<h3 id="getting-started-with-a-boilerplate">Getting started with a boilerplate</h3>
+
+<p>In order to get started with flatiron it needs to be installed on your system.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>npm install flatiron -g
+</code></pre>
+</div>
+
+<p>Once installed, the <code class="highlighter-rouge">flatiron</code> command line tool will be available. In order to start with a new web application boilerplate, issue the following command:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>flatiron create &lt;app-name&gt; http
+</code></pre>
+</div>
+
+<p>The boilerplate allows you to quickly start scaffolding a web application without a lot of custom development.</p>
+
+<h3 id="advanced-use-of-flatiron-in-your-project">Advanced use of flatiron in your project</h3>
+
+<p>Our <code class="highlighter-rouge">package.json</code> file includes several other components used in conjunction with flatiron.</p>
+
+<div id="gist-6162027-package-json">
+  <script src="https://gist.github.com/6162027.js?file=package.json"></script>
+</div>
+
+<p>We decided to use flatiron, plates, resourceful, restful, and union for our example project.</p>
+
+<div id="gist-6162027-app-js">
+  <script src="https://gist.github.com/6162027.js?file=app.js"></script>
+</div>
+
+<p>Our application server gets bootstrapped and launched through the <code class="highlighter-rouge">app.js</code> file. The application uses Union middleware to integrate plates, resourceful, and restful into flatiron.</p>
+
+<div id="gist-6162027-config-json">
+  <script src="https://gist.github.com/6162027.js?file=config.json"></script>
+</div>
+
+<h3 id="application-configuration">Application Configuration</h3>
+
+<p>The <code class="highlighter-rouge">restful</code> and <code class="highlighter-rouge">resourceful</code> components are configured in the configuration file. Our example uses CouchDB. If you do not wish to use Couch, simply change the <code class="highlighter-rouge">engine</code> option to <code class="highlighter-rouge">memory</code> and remove <code class="highlighter-rouge">uri</code> and <code class="highlighter-rouge">auth</code> from the <code class="highlighter-rouge">resourceful</code> block.</p>
+
+<h3 id="controllers-and-views">Controllers and Views</h3>
+
+<p>We decided to snag the <strong>plates</strong> plugin from the <code class="highlighter-rouge">scaffolding</code> branch in the <code class="highlighter-rouge">flatiron/flatiron</code> repository to allow us to easily render views in our application.</p>
+
+<div id="gist-6162027-plates-js">
+  <script src="https://gist.github.com/6162027.js?file=plates.js"></script>
+</div>
+
+<p>The <strong>controllers</strong> plugin serves as a new addition to flatiron and it’s based on the plates plugin.</p>
+
+<div id="gist-6162027-controllers-js">
+  <script src="https://gist.github.com/6162027.js?file=controllers.js"></script>
+</div>
+
+<p>The controllers plugin simplifies the inclusion of custom director routes. Each controller file contains all logic necessary for its routes to function.</p>
+
+<p>The default controller serves up the index page.</p>
+
+<div id="gist-6162027-default-js">
+  <script src="https://gist.github.com/6162027.js?file=default.js"></script>
+</div>
+
+<p>Our views use the <code class="highlighter-rouge">plates</code> module and the <code class="highlighter-rouge">plates</code> plugin which supports layouts. This example contains a basic layout to get you started.</p>
+
+<div id="gist-6162027-app-html">
+  <script src="https://gist.github.com/6162027.js?file=app.html"></script>
+</div>
+
+<p>The index page automatically includes this layout and its contents replace the <code class="highlighter-rouge">&lt;div id="body"&gt;&lt;/div&gt;</code> tag.</p>
+
+<div id="gist-6162027-index-html">
+  <script src="https://gist.github.com/6162027.js?file=index.html"></script>
+</div>
+
+<h3 id="automatically-generated-rest-api-resources">Automatically generated REST API resources</h3>
+
+<p>By using the <code class="highlighter-rouge">restful</code> middleware plugin our application automatically discovers and makes resources available in the <code class="highlighter-rouge">/api</code> directory. The API prefix can be modified in the <code class="highlighter-rouge">config.json</code> file.</p>
+
+<p>Our application now reports the following available resources:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>GET     / 
+GET     /api 
+GET     /api/user 
+POST    /api/user 
+POST    /api/user/([._a-zA-Z0-9-]+) 
+GET     /api/user/([._a-zA-Z0-9-]+) 
+DELETE  /api/user/([._a-zA-Z0-9-]+) 
+PUT     /api/user/([._a-zA-Z0-9-]+) 
+</code></pre>
+</div>
+
+<p>Change the <code class="highlighter-rouge">explore</code> configuration option to <code class="highlighter-rouge">false</code> in order to not expose available API end-points.</p>
+
+<h3 id="resources-with-resourceful">Resources with Resourceful</h3>
+
+<p>We also wrote a <code class="highlighter-rouge">user</code> resource with a couple of helper methods to ease generation of <abbr title="Password-Based Key Derivation Function 2">PBKDF2</abbr> encrypted passwords for heightened security.</p>
+
+<div id="gist-6162027-user-js">
+  <script src="https://gist.github.com/6162027.js?file=user.js"></script>
+</div>
+
+<p>The packer used in the <code class="highlighter-rouge">user</code> resource resides in the <code class="highlighter-rouge">utils.js</code> file.</p>
+
+<p>To quickly get started by inserting a user, utilize the snippet from the comment inside the <code class="highlighter-rouge">user.js</code> file.</p>
+
+<div id="gist-6162027-utils-js">
+  <script src="https://gist.github.com/6162027.js?file=utils.js"></script>
+</div>
+
+<p>With this custom boilerplate we are now ready to start cranking out pages as well as API end-points that can be consumed by our web application and mobile applications alike.</p>
+
+<p>Feel free to fork our repository to add your own modifications. We greatly appreciate pull requests with improvements and new ideas!</p>
+
+<p><a href="https://github.com/Xorcode/flatiron-example" class="button"><i class="fa fa-github"></i> Fork on Github</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[AWS PaaS: Running Node.js with Dokku on an Ubuntu instance]]></title>
+    <link href="http://xorcode.com/cloud/server/2013/07/28/running-node-js-with-dokku-on-an-ubuntu-instance.html/"/>
+    <updated>2013-07-28T11:48:00+00:00</updated>
+    <id>http://xorcode.com/cloud/server/2013/07/28/running-node-js-with-dokku-on-an-ubuntu-instance</id>
+    <content type="html"><![CDATA[<p>After having tried several fully featured <abbr title="Platform As A Service">PaaS</abbr> stacks such as <a href="http://bit.ly/17Ng4b7">Nodejitsu</a>, <a href="http://bit.ly/18LaDhq">Heroku</a>, and <a href="http://red.ht/17Ng6Q3">OpenShift</a> we decided to roll our own simple PaaS stack with <a href="http://bit.ly/18LaDhr">Dokku</a> and <a href="http://amzn.to/17Ng6Q4">AWS</a>.</p>
+
+<!--more-->
+
+<blockquote>
+  <p>Docker powered mini-Heroku. The smallest PaaS implementation you’ve ever seen.</p>
+</blockquote>
+
+<p>During our initial testing we started out with a <em>t1.micro</em> instance, which seemed sufficient for development needs. The instance consumes a constant 100% CPU during operation, yet the different services respond in a timely fashion with a few megabytes of RAM to spare with two to three applications running. Definitely not the configuration we would use for a production environment.</p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<div class="alert alert-error"><i class="icon-warning-sign"></i> Dokku requires the host name of the server to properly resolve or it will not install the necessary <code>VHOST</code> records. You can use any <abbr title="Fully Qualified Domain Name">FQDN</abbr> that will resolve using <code>dig +short $HOSTNAME</code> on your instance.</div>
+
+<p>The domain you use for your Dokku server needs to support wildcard sub-domains.</p>
+
+<p>An example has been provided below:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>example.org    A     &lt;Elastic IP&gt;
+*              A     &lt;Elastic IP&gt;
+</code></pre>
+</div>
+
+<p>Your server also needs to be able to respond to port 80, make sure that the Security Group for the server includes a rule that opens port 80 to <code class="highlighter-rouge">0.0.0.0/0</code> to ensure a proper working server.</p>
+
+<h3 id="creating-aws-instance">Creating AWS Instance</h3>
+
+<p>Instantiate a new <abbr title="Amazon Web Services">AWS</abbr> instance using the Ubuntu 13.04 image. Once this process completes, go ahead and log into the instance via <abbr title="Secure SHell">SSH</abbr> as the user <strong>ubuntu</strong>.</p>
+
+<p>Also create a new Elastic IP and assign it to your newly created instance. Modify your DNS as described above to point both the bare domain as well as the wildcard sub domain to the assigned Elastic IP.</p>
+
+<p>Set <code class="highlighter-rouge">/etc/hostname</code> to this domain name and make sure to also change the server host name.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo cat <span class="s2">"example.org"</span> &gt; /etc/hostname
+<span class="gp">$ </span>sudo hostname example.org
+</code></pre>
+</div>
+
+<h3 id="installing-dokku">Installing Dokku</h3>
+
+<p>After following the steps above, run the following command line script as the user <strong>ubuntu</strong>:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>wget -qO- https://raw.github.com/progrium/dokku/master/bootstrap.sh | sudo bash
+</code></pre>
+</div>
+
+<p>Dokku will begin installation, a process which usually takes less than five minutes to complete.</p>
+
+<p>Once installation completes, Dokku will notify you to create a git key. Open a new terminal window on your local machine. Determine which SSH key to use for authentication. Most systems use either <code class="highlighter-rouge">id_dsa</code> or <code class="highlighter-rouge">id_rsa</code> by default.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>cat ~/.ssh/id_rsa.pub | ssh example.org <span class="s2">"sudo gitreceive upload-key example"</span>
+</code></pre>
+</div>
+
+<p>Once you have added your key to the Dokku server you are ready to deploy your first application to your new PaaS!</p>
+
+<h3 id="deploying-nodejs-to-dokku">Deploying Node.js to Dokku</h3>
+
+<p>Dokku supports Node.js as well as several other <a href="http://bit.ly/18LdWoK">buildpacks</a>. In order to deploy your application to your Dokku instance follow these simple steps.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span><span class="nb">cd </span>node-js-sample
+<span class="gp">$ </span>git remote add example git@example.org:node-js-app
+<span class="gp">$ </span>git push example master
+</code></pre>
+</div>
+
+<p>This will initialize the deployment process and bootstrap your Node.js application on your Dokku server.</p>
+
+<p>Once your application has been deployed, it will start responding on <strong>http://node-js-app.example.org</strong>.</p>
+
+<p>Please see the <a href="http://bit.ly/18LaDhr">Dokku</a> project on Github for more information.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Web Servers in AWS: Performance Tune Apache 2.x]]></title>
+    <link href="http://xorcode.com/cloud/server/2013/01/09/performance-tune-apache-2x.html/"/>
+    <updated>2013-01-09T00:00:00+00:00</updated>
+    <id>http://xorcode.com/cloud/server/2013/01/09/performance-tune-apache-2x</id>
+    <content type="html"><![CDATA[<p>Help determine your Apache <code class="highlighter-rouge">ServerLimit</code> and <code class="highlighter-rouge">MaxClients</code> for your specific server configuration to ensure that your instance runs smoothly.</p>
+
+<!--more-->
+
+<p>Oftentimes when we fire up a new AWS instance we use the <em>t1.micro</em> type. The default Apache configuration does not take the limited resources of this instance type into account. The <em>t1.micro</em> instances also come without a swap partition which may cause trouble once your instance run out of RAM. If you are running MySQL or memcached on the same server you will sooner or later notice that MySQL has stopped responding because the operating system killed it.</p>
+
+<p>Use the following simple script to determine your Apache <code class="highlighter-rouge">ServerLimit</code> and <code class="highlighter-rouge">MaxClients</code>:</p>
+
+<div id="gist-4496984-check-apache-instances-sh">
+  <script src="https://gist.github.com/4496984.js?file=check-apache-instances.sh"></script>
+</div>
+
+<p>The script will output something similar to this:</p>
+
+<div id="gist-4496984-shell-output-txt">
+  <script src="https://gist.github.com/4496984.js?file=shell-output.txt"></script>
+</div>
+
+<p>You would then modify your Apache configuration accordingly:</p>
+
+<div id="gist-4496984-httpd-conf">
+  <script src="https://gist.github.com/4496984.js?file=httpd.conf"></script>
+</div>
+
+<p>The above configuration excerpt assumes that you are using <code class="highlighter-rouge">mod_prefork</code> and that you want to keep some free RAM for other processes such as MySQL.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Round Robin MongoDB backups to S3 with Tar]]></title>
+    <link href="http://xorcode.com/cloud/server/2012/08/22/round-robin-mongodb-backups-to-s3-with-tar.html/"/>
+    <updated>2012-08-22T00:00:00+00:00</updated>
+    <id>http://xorcode.com/cloud/server/2012/08/22/round-robin-mongodb-backups-to-s3-with-tar</id>
+    <content type="html"><![CDATA[<p>Have you been looking for an easy way to back something up to the cloud with minimum effort? Having explored several options we settled on the most simple solution available. <a href="http://bit.ly/NlRanp">Tar</a> and <a href="http://amzn.to/Py3yoX">Amazon S3</a>.</p>
+
+<!--more-->
+
+<blockquote>
+  <p><img src="/assets/uploads/2012/08/gnu-head.png" class="pull-right" /> The Tar program provides the ability to create tar archives, as well as various other kinds of manipulation. For example, you can use Tar on previously created archives to extract files, to store additional files, or to update or list files which were already stored. Initially, tar archives were used to store files conveniently on magnetic tape. The name “Tar” comes from this use; it stands for <strong>t</strong>ape <strong>ar</strong>chiver. Despite the utility’s name, Tar can direct its output to available devices, files, or other programs (using pipes), it can even access remote devices or files (as archives).</p>
+</blockquote>
+
+<p><strong>backup.sh</strong></p>
+
+<div id="gist-3430452-backup-sh">
+  <script src="https://gist.github.com/3430452.js?file=backup.sh"></script>
+</div>
+
+<p><strong>tarsplitter.sh</strong></p>
+
+<div id="gist-3430452-tarsplitter-sh">
+  <script src="https://gist.github.com/3430452.js?file=tarsplitter.sh"></script>
+</div>
+
+<p>Make sure that <code class="highlighter-rouge">s3cmd</code> or <code class="highlighter-rouge">s3multiput</code> is in your environment path.</p>
+
+<h3 id="running-on-an-aws-instance">Running on an AWS instance</h3>
+
+<p>As long as you are on an AWS instance you have the <code class="highlighter-rouge">s3multiput</code> utility installed and ready to start using these scripts right away. We noticed on our AWS instance that <code class="highlighter-rouge">s3multiput</code> did not work because FileChunkIO was not installed. The S3 command line tools are written in Python, so we installed FileChunkIO with the following command:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo easy_install FileChunkIO
+</code></pre>
+</div>
+
+<h3 id="non-aws-scenarios">Non-AWS scenarios</h3>
+
+<p>If you are not on an AWS instance, you have to install <a href="http://bit.ly/NlRdj7">s3cmd</a>. Unfortunately the S3 tools available in AWS are not yet packaged for Ubuntu, which however has some <a href="http://bit.ly/Py3CVN">native package support</a> for other AWS services.</p>
+
+<h4 id="installing-s3-tools-on-ubuntu">Installing S3 Tools on Ubuntu</h4>
+
+<p>If you happen to have Ubuntu 12.04 LTS you can safely install <code class="highlighter-rouge">s3cmd</code> with <code class="highlighter-rouge">apt-get</code>.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo apt-get install s3cmd
+</code></pre>
+</div>
+
+<p>Otherwise we recommend that you install from <a href="http://bit.ly/Pybvdy">source</a>.</p>
+
+<h4 id="installing-s3-tools-on-rpm-based-systems">Installing S3 Tools on RPM-based systems</h4>
+
+<blockquote>
+  <p>Users of Suse (Novell) and RedHat based Linux distributions are encouraged to add our <a href="http://bit.ly/PybvdA">package repository</a> to their package managers. That way you’ll always stay up to date with your s3cmd package.</p>
+</blockquote>
+
+<p>As stated above it is best to add the package repository to stay up to date with the S3 tools.</p>
+
+<h4 id="installing-s3-tools-from-source">Installing S3 Tools from source</h4>
+
+<p>Check out the source of S3 tools:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>git clone git://github.com/s3tools/s3cmd.git
+<span class="gp">$ </span><span class="nb">cd </span>s3cmd
+<span class="gp">$ </span>sudo python setup.py install
+</code></pre>
+</div>
+
+<p>The above requires that you have the Python distutils module. On a Debian system (such as Ubuntu):</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo apt-get install python-setuptools
+</code></pre>
+</div>
+
+<h4 id="configure-s3cmd">Configure s3cmd</h4>
+
+<p>You have to run <code class="highlighter-rouge">s3cmd --configure</code> in order to make <code class="highlighter-rouge">s3cmd</code> work. This will take you through a set of guided prompts setting up your access key and secret key as well as encryption.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Jekyll: Generate Bit.ly Links on The Fly with Liquid]]></title>
+    <link href="http://xorcode.com/code/2012/08/16/generate-bitly-links-on-the-fly-with-jekyll-and-liquid.html/"/>
+    <updated>2012-08-16T00:00:00+00:00</updated>
+    <id>http://xorcode.com/code/2012/08/16/generate-bitly-links-on-the-fly-with-jekyll-and-liquid</id>
+    <content type="html"><![CDATA[<p>We needed a quick way of generating shortened links in our articles. Since we already use <a href="http://bit.ly/">bit.ly</a> we figured that would be the best choice and there are several Ruby scripts and gems available. We picked one that is actively developed, appears stable, as well as has support for <a href="http://dev.bitly.com/data_apis.html">bit.ly API V3</a>.</p>
+
+<!--more-->
+
+<blockquote>
+  <p><img src="/assets/uploads/2012/08/bitly.png" class="pull-right" /> bitly is the easiest and most fun way to save, share and discover links from around the web. We call these links bitmarks, and you can use bitly to remember, curate and share them.</p>
+</blockquote>
+
+<p>First you have to install the <a href="http://bit.ly/SnEqPa">Bit.ly gem</a>:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo gem install bitly
+</code></pre>
+</div>
+
+<p>Once you have installed the gem simply put the below file in your <code class="highlighter-rouge">_plugins</code> folder.</p>
+
+<div id="gist-3361948-bitly-filter-rb">
+  <script src="https://gist.github.com/3361948.js?file=bitly_filter.rb"></script>
+</div>
+
+<p>Update your configuration file with the following values:</p>
+<div class="language-yaml highlighter-rouge"><pre class="highlight"><code><span class="s">bitly</span><span class="pi">:</span>
+  <span class="s">username</span><span class="pi">:</span> <span class="s">YOUR_BITLY_USERNAME</span>
+  <span class="s">api_key</span><span class="pi">:</span> <span class="s">YOUR_BITLY_KEY</span>
+</code></pre>
+</div>
+
+<p>Then you can use tags like this in your content:</p>
+
+<div id="gist-3361948-sample-tag">
+  <script src="https://gist.github.com/3361948.js?file=sample_tag"></script>
+</div>
+
+<p>Which would produce output similar to this:</p>
+
+<div id="gist-3361948-sample-output">
+  <script src="https://gist.github.com/3361948.js?file=sample_output"></script>
+</div>
+
+<p>The filter uses a cache to cache the shortened URLs during build time to minimize the calls to the <a href="http://dev.bitly.com/api.html">Bit.ly API</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Jekyll: Using CloudFront as a CDN]]></title>
+    <link href="http://xorcode.com/cloud/code/2012/08/15/jekyll-using-cloudfront.html/"/>
+    <updated>2012-08-15T00:00:00+00:00</updated>
+    <id>http://xorcode.com/cloud/code/2012/08/15/jekyll-using-cloudfront</id>
+    <content type="html"><![CDATA[<p>We decided to use <a href="http://xorcode.net/R2fO1q">Amazon CloudFront</a> as a <abbr title="Content Delivery Network">CDN</abbr> to deliver media assets of our site. This seemed easy enough until we looked into how Jekyll-Bootstrap is written. For all intents and purposes, Jekyll-Bootstrap uses safe mode to indicate production. Though that would mean that none of our plugins would be used when deploying.</p>
+
+<!--more-->
+
+<blockquote>
+  <p><img src="/assets/uploads/2012/08/cloudfront.png" class="pull-right" /> Amazon CloudFront is a web service for content delivery. It integrates with other Amazon Web Services to give developers and businesses an easy way to distribute content to end users with low latency, high data transfer speeds, and no commitments.</p>
+</blockquote>
+
+<p>Time to modify jekyll itself.</p>
+
+<p>Open up <strong>jekyll/bin/jekyll</strong> and add this new option:</p>
+
+<div class="language-ruby highlighter-rouge"><pre class="highlight"><code>  <span class="n">opts</span><span class="p">.</span><span class="nf">on</span><span class="p">(</span><span class="s2">"--[no-]production"</span><span class="p">,</span> <span class="s2">"Production mode (default development)"</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">production</span><span class="o">|</span>
+    <span class="n">options</span><span class="p">[</span><span class="s1">'production'</span><span class="p">]</span> <span class="o">=</span> <span class="n">production</span>
+  <span class="k">end</span>
+</code></pre>
+</div>
+
+<div id="gist-3360764-jekyll-rb">
+  <script src="https://gist.github.com/3360764.js?file=jekyll.rb"></script>
+</div>
+
+<p>After modifying this, and feeling a bit bad about it, we went on to change Jekyll-Bootstrap as well.</p>
+
+<p><strong>_includes/JB/setup:</strong></p>
+
+<div id="gist-3360764-setup">
+  <script src="https://gist.github.com/3360764.js?file=setup"></script>
+</div>
+
+<p><strong>_includes/JB/analytics:</strong></p>
+
+<div id="gist-3360764-analytics">
+  <script src="https://gist.github.com/3360764.js?file=analytics"></script>
+</div>
+
+<p><strong>_includes/JB/comments:</strong></p>
+
+<div id="gist-3360764-comments">
+  <script src="https://gist.github.com/3360764.js?file=comments"></script>
+</div>
+
+<p><strong>_config.yml:</strong></p>
+
+<p>We changed our configuration to include <code class="highlighter-rouge">UPLOAD_PATH</code>.</p>
+
+<div id="gist-3360764--config-yml">
+  <script src="https://gist.github.com/3360764.js?file=_config.yml"></script>
+</div>
+
+<p>Finally we added the following task to our <strong>Rakefile:</strong></p>
+
+<div id="gist-3360764-Rakefile">
+  <script src="https://gist.github.com/3360764.js?file=Rakefile"></script>
+</div>
+
+<p>Now we can deploy to our production site and have it use the proper CloudFront URLs.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Jekyll: Creating Your First Liquid Plugin]]></title>
+    <link href="http://xorcode.com/code/2012/08/15/jekyll-creating-your-first-liquid-plugin.html/"/>
+    <updated>2012-08-15T00:00:00+00:00</updated>
+    <id>http://xorcode.com/code/2012/08/15/jekyll-creating-your-first-liquid-plugin</id>
+    <content type="html"><![CDATA[<p>After switching from WordPress to <a href="http://xorcode.net/Pb1SBF">Jekyll</a> and <a href="http://xorcode.net/SjE0JM">Jekyll-Bootstrap</a> we realized that we were lacking in the <a href="http://xorcode.net/NkqtRj">Plugin</a> department. We immediately set about writing plugins for Jekyll to fill the void. Our first plugin generates a QR code using Google’s Charts API.</p>
+
+<!--more-->
+
+<blockquote>
+  <p>The Jekyll plugin system hooks allow you to create custom generated content specific to your site. You can run custom code for your site without having to modify the Jekyll source itself.</p>
+</blockquote>
+
+<p><span class="label label-info">caveat</span> The plugin we created prints out Twitter Bootstrap compatible HTML.</p>
+
+<div id="gist-3355761">
+  <script src="https://gist.github.com/3355761.js?file="></script>
+</div>
+
+<p>As you can see, the plugin generates a QR code for a Google Play item. All you need to do is supply the ID.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Migrating Your WordPress Site to Jekyll Bootstrap]]></title>
+    <link href="http://xorcode.com/code/2012/08/14/migrating-your-wordpress-site-to-jekyll-bootstrap.html/"/>
+    <updated>2012-08-14T00:00:00+00:00</updated>
+    <id>http://xorcode.com/code/2012/08/14/migrating-your-wordpress-site-to-jekyll-bootstrap</id>
+    <content type="html"><![CDATA[<p>We are always looking for ways to improve performance. As an exercise we tried to find the easiest, fastest, blog publishing tool out there. The engine behind <a href="http://xorcode.net/Pb1LG2">GitHub Pages</a> caught our eye. Enter <a href="http://xorcode.net/Pb1SBF">Jekyll</a>. Then enter <a href="http://xorcode.net/SjE0JM">Jekyll-Bootstrap</a>.</p>
+
+<!--more-->
+
+<blockquote>
+  <p><img src="/assets/uploads/2012/08/jekyll-150x150.jpg" class="pull-right" /> Jekyll is a simple, blog aware, static site generator. It takes a template directory (representing the raw form of a website), runs it through Textile or Markdown and Liquid converters, and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p>
+</blockquote>
+
+<p>Our previous choice of CMS happened to be WordPress simply because we design and maintain several WordPress installations for our clients. How does one migrate from WordPress to Jekyll?</p>
+
+<h3 id="installing-jekyll-bootstrap">Installing Jekyll-Bootstrap</h3>
+
+<p>The Jekyll-Bootstrap site mentions that you can get your site up and running in three minutes. They are not exaggerating.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>git clone https://github.com/plusjade/jekyll-bootstrap.git
+<span class="gp">$ </span><span class="nb">cd </span>jekyll-bootstrap
+<span class="gp">$ </span>jekyll --server
+</code></pre>
+</div>
+
+<p>Navigate to <a href="http://localhost:4000/">http://localhost:4000/</a> and see what the fuss is about.</p>
+
+<h3 id="migrating-from-wordpress-to-jekyll">Migrating from WordPress to Jekyll</h3>
+
+<p><span class="label label-warning">vanilla migration</span> Migrating from WordPress to Jekyll happens to be dead simple:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo gem install sequel mysqlplus
+<span class="gp">$ </span>ruby -rubygems -e <span class="s1">'require "jekyll/migrators/wordpress"; Jekyll::WordPress.process("database", "user", "pass")'</span>
+</code></pre>
+</div>
+
+<p><span class="label label-info">custom migration</span> However, the WordPress migrator that comes packaged with Jekyll does not support importing tags and categories. The <a href="http://xorcode.net/Pb1SBF">mojombo/jekyll</a> repository contains a more <a href="http://xorcode.net/Pb3FGT">up-to-date version</a>. Download that and put it in a <code class="highlighter-rouge">lib/</code> folder inside your <code class="highlighter-rouge">jekyll-bootstrap/</code> directory.</p>
+
+<p>The syntax for the newer migrator has changed slightly and also introduces a way to pass options into it:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>ruby -rubygems -r <span class="s1">'./lib/wordpress'</span> -e <span class="s1">'Jekyll::WordPress.process("database", "user", "pass", "host", { :comments =&gt; false })'</span>
+</code></pre>
+</div>
+
+<p>As you may have noticed, we specified a host and also turned off importing comments since we are using <a href="http://disqus.com/">Disqus</a> as our comment engine.</p>
+
+<p>Since we intend to use Jekyll-Bootstrap we also made a slight change to the <code class="highlighter-rouge">wordpress.rb</code> migrator.</p>
+
+<p><a class="button" href="http://xorcode.net/SjIFeO"><i class="fa fa-bookmark"></i> Look at our wordpress.rb</a></p>
+
+<h3 id="picking-a-parser">Picking a parser</h3>
+
+<p>When you first migrate from WordPress you may run into issues with parsing. Our posts were in straight HTML format and Haruku complained and sometimes would not even finish rendering pages because of our inline HTML blocks.</p>
+
+<p>There are several parsers to choose from:</p>
+
+<ul>
+  <li>Haruku <span class="label">default</span></li>
+  <li>Rdiscount <span class="label label-info">our pick</span></li>
+  <li>Kramdown</li>
+</ul>
+
+<p>From tests we determined that Rdiscount suited our content best. We have run it extensively against our content and everything renders flawlessly. There are discussions a-plenty about the performance of these plugins so we suggest you run your own tests and benchmarks to decide on a parser that suits you.</p>
+
+<h4 id="installing-the-parser">Installing the parser</h4>
+
+<p>We selected Rdiscount. Rdiscount does not come default with Jekyll so it needs to be installed:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo gem install rdiscount
+</code></pre>
+</div>
+
+<p>This also means that you will have to modify your <code class="highlighter-rouge">_config.yml</code> file accordingly:</p>
+
+<figure class="highlight"><figcaption>File: _config.yml</figcaption><pre><code class="language-yaml" data-lang="yaml"><span class="s">markdown</span><span class="pi">:</span> <span class="s">rdiscount</span>
+<span class="s">rdiscount</span><span class="pi">:</span>
+  <span class="s">extensions</span><span class="pi">:</span> <span class="pi">[]</span></code></pre></figure>
+
+<h3 id="customizing-jekyll-bootstrap">Customizing Jekyll-Bootstrap</h3>
+
+<p>Once you have the site up and running you can start customizing the templates and the layouts. Since Jekyll-Bootstrap has support for themes you can safely create your own theme without destroying original files.</p>
+
+<p>Take a look at what we have done with Jekyll and Jekyll-Bootstrap:</p>
+
+<p><a class="button" href="http://xorcode.net/NjG0AV"><i class="fa fa-github"></i> Jekyll-Bootstrap theme</a></p>
+
+<h3 id="in-conclusion">In conclusion</h3>
+
+<p>So far we love Jekyll and Jekyll-Bootstrap! We also got to learn Ruby in the process.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Creating your first Zend Framework site with Elastic Beanstalk]]></title>
+    <link href="http://xorcode.com/cloud/code/2012/03/22/creating-your-first-zend-framework-site-with-elastic-beanstalk.html/"/>
+    <updated>2012-03-22T23:22:04+00:00</updated>
+    <id>http://xorcode.com/cloud/code/2012/03/22/creating-your-first-zend-framework-site-with-elastic-beanstalk</id>
+    <content type="html"><![CDATA[<p>Trying out the new feature of AWS Elastic Beanstalk we created and deployed a Zend Framework PHP project to Elastic Beanstalk in less than five minutes using git.</p>
+
+<!--more-->
+
+<blockquote>
+  <p><img src="/assets/uploads/2012/03/beanstalk.png" class="pull-right" style="height:125px;" /> AWS Elastic Beanstalk is an even easier way for you to quickly deploy and manage applications in the AWS cloud. You simply upload your application, and Elastic Beanstalk automatically handles the deployment details of capacity provisioning, load balancing, auto-scaling, and application health monitoring.</p>
+</blockquote>
+
+<p>We decided to try with a clean copy of Zend Framework to determine what we had to do to get one of our PHP Zend Framework powered sites up and running successfully on <a href="http://aws.amazon.com/elasticbeanstalk/">Elastic Beanstalk</a>. Using the Zend Studio project creation wizard we set up HelloWorld.</p>
+
+<p>HelloWorld ran fine after we downloaded <a href="http://framework.zend.com/">Zend Framework</a> and placed it in <code class="highlighter-rouge">library/</code> and added it to the <code class="highlighter-rouge">autoloaderNamespaces</code> configuration parameter. A few minor changes to the configuration of the Elastic Beanstalk environment are necessary to ensure that Zend Framework runs as it should.</p>
+
+<p><img src="/assets/uploads/2012/03/AWS-Management-Console.png" alt="AWS Management Console" /></p>
+
+<p>Note that we used the Document Root <code class="highlighter-rouge">/public</code> to indicate that the web server container should be using the standard Zend Framework public directory as its starting point. Once this was done and the instances had reloaded their configuration our Zend Framework site popped right up and greeted us with the familiar Zend Framework boiler template starting page.</p>
+
+<p><img src="/assets/uploads/2012/03/helloworldelasticbeanstalk.png" alt="Hello World, Elastic Beanstalk" /></p>
+
+<p>Now you are free to deploy your Zend Framework projects into the cloud with Elastic Beanstalk and PHP. We are excited about this new feature of AWS and we intend to use it to its fullest. We will come back with more updates regarding Amazon and Elastic Beanstalk in the near future.</p>
+]]></content>
+  </entry>
+  
+</feed>

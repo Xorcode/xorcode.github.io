@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Server | Xorcode]]></title>
+  <link href="http://xorcode.com/blog/categories/server/atom.xml" rel="self"/>
+  <link href="http://xorcode.com/"/>
+  <updated>2017-03-29T04:07:39+00:00</updated>
+  <id>http://xorcode.com/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    <email><![CDATA[hello@xorcode.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Help us Reset The Net on June 5]]></title>
+    <link href="http://xorcode.com/cloud/server/2014/04/19/help-us-reset-the-net-on-june-5.html/"/>
+    <updated>2014-04-19T11:38:00+00:00</updated>
+    <id>http://xorcode.com/cloud/server/2014/04/19/help-us-reset-the-net-on-june-5</id>
+    <content type="html"><![CDATA[<p>We can’t stop targeted hacking, but we <em>can</em> stop mass surveillance, by building proven security into the everyday Internet. Join us and others for <a href="https://www.resetthenet.org/">#ResetTheNet</a> on June 5th where we promote free, open source tools for end-to-end encryption.</p>
+
+<!-- more -->
+
+<iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/qKk8MHFLNNE?rel=0" frameborder="0" allowfullscreen=""></iframe>
+
+<h2 id="what-can-i-do">What can I do?</h2>
+
+<p>By June 5th, do something to reset your part of the web. What’s the most you can do to block mass surveillance? For sites and apps, the first step is securing the connection between you and your users. For anyone with an audience, or a circle of friends, the best thing you can do is promote a end-to-end encryption (there are some really easy-to-use tools for that now, but they need promotion). For visionary geeks, sky’s the limit. Think big!</p>
+
+<p>Get started now and read up on <a href="http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">HSTS</a> and <a href="http://en.wikipedia.org/wiki/Perfect_forward_secrecy">PFS</a>.</p>
+
+<p>For more information, see the <a href="https://www.resetthenet.org/">Reset The Net</a> page.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[AWS PaaS: Running Node.js with Dokku on an Ubuntu instance]]></title>
+    <link href="http://xorcode.com/cloud/server/2013/07/28/running-node-js-with-dokku-on-an-ubuntu-instance.html/"/>
+    <updated>2013-07-28T11:48:00+00:00</updated>
+    <id>http://xorcode.com/cloud/server/2013/07/28/running-node-js-with-dokku-on-an-ubuntu-instance</id>
+    <content type="html"><![CDATA[<p>After having tried several fully featured <abbr title="Platform As A Service">PaaS</abbr> stacks such as <a href="http://bit.ly/17Ng4b7">Nodejitsu</a>, <a href="http://bit.ly/18LaDhq">Heroku</a>, and <a href="http://red.ht/17Ng6Q3">OpenShift</a> we decided to roll our own simple PaaS stack with <a href="http://bit.ly/18LaDhr">Dokku</a> and <a href="http://amzn.to/17Ng6Q4">AWS</a>.</p>
+
+<!--more-->
+
+<blockquote>
+  <p>Docker powered mini-Heroku. The smallest PaaS implementation you’ve ever seen.</p>
+</blockquote>
+
+<p>During our initial testing we started out with a <em>t1.micro</em> instance, which seemed sufficient for development needs. The instance consumes a constant 100% CPU during operation, yet the different services respond in a timely fashion with a few megabytes of RAM to spare with two to three applications running. Definitely not the configuration we would use for a production environment.</p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<div class="alert alert-error"><i class="icon-warning-sign"></i> Dokku requires the host name of the server to properly resolve or it will not install the necessary <code>VHOST</code> records. You can use any <abbr title="Fully Qualified Domain Name">FQDN</abbr> that will resolve using <code>dig +short $HOSTNAME</code> on your instance.</div>
+
+<p>The domain you use for your Dokku server needs to support wildcard sub-domains.</p>
+
+<p>An example has been provided below:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>example.org    A     &lt;Elastic IP&gt;
+*              A     &lt;Elastic IP&gt;
+</code></pre>
+</div>
+
+<p>Your server also needs to be able to respond to port 80, make sure that the Security Group for the server includes a rule that opens port 80 to <code class="highlighter-rouge">0.0.0.0/0</code> to ensure a proper working server.</p>
+
+<h3 id="creating-aws-instance">Creating AWS Instance</h3>
+
+<p>Instantiate a new <abbr title="Amazon Web Services">AWS</abbr> instance using the Ubuntu 13.04 image. Once this process completes, go ahead and log into the instance via <abbr title="Secure SHell">SSH</abbr> as the user <strong>ubuntu</strong>.</p>
+
+<p>Also create a new Elastic IP and assign it to your newly created instance. Modify your DNS as described above to point both the bare domain as well as the wildcard sub domain to the assigned Elastic IP.</p>
+
+<p>Set <code class="highlighter-rouge">/etc/hostname</code> to this domain name and make sure to also change the server host name.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo cat <span class="s2">"example.org"</span> &gt; /etc/hostname
+<span class="gp">$ </span>sudo hostname example.org
+</code></pre>
+</div>
+
+<h3 id="installing-dokku">Installing Dokku</h3>
+
+<p>After following the steps above, run the following command line script as the user <strong>ubuntu</strong>:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>wget -qO- https://raw.github.com/progrium/dokku/master/bootstrap.sh | sudo bash
+</code></pre>
+</div>
+
+<p>Dokku will begin installation, a process which usually takes less than five minutes to complete.</p>
+
+<p>Once installation completes, Dokku will notify you to create a git key. Open a new terminal window on your local machine. Determine which SSH key to use for authentication. Most systems use either <code class="highlighter-rouge">id_dsa</code> or <code class="highlighter-rouge">id_rsa</code> by default.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>cat ~/.ssh/id_rsa.pub | ssh example.org <span class="s2">"sudo gitreceive upload-key example"</span>
+</code></pre>
+</div>
+
+<p>Once you have added your key to the Dokku server you are ready to deploy your first application to your new PaaS!</p>
+
+<h3 id="deploying-nodejs-to-dokku">Deploying Node.js to Dokku</h3>
+
+<p>Dokku supports Node.js as well as several other <a href="http://bit.ly/18LdWoK">buildpacks</a>. In order to deploy your application to your Dokku instance follow these simple steps.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span><span class="nb">cd </span>node-js-sample
+<span class="gp">$ </span>git remote add example git@example.org:node-js-app
+<span class="gp">$ </span>git push example master
+</code></pre>
+</div>
+
+<p>This will initialize the deployment process and bootstrap your Node.js application on your Dokku server.</p>
+
+<p>Once your application has been deployed, it will start responding on <strong>http://node-js-app.example.org</strong>.</p>
+
+<p>Please see the <a href="http://bit.ly/18LaDhr">Dokku</a> project on Github for more information.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Web Servers in AWS: Performance Tune Apache 2.x]]></title>
+    <link href="http://xorcode.com/cloud/server/2013/01/09/performance-tune-apache-2x.html/"/>
+    <updated>2013-01-09T00:00:00+00:00</updated>
+    <id>http://xorcode.com/cloud/server/2013/01/09/performance-tune-apache-2x</id>
+    <content type="html"><![CDATA[<p>Help determine your Apache <code class="highlighter-rouge">ServerLimit</code> and <code class="highlighter-rouge">MaxClients</code> for your specific server configuration to ensure that your instance runs smoothly.</p>
+
+<!--more-->
+
+<p>Oftentimes when we fire up a new AWS instance we use the <em>t1.micro</em> type. The default Apache configuration does not take the limited resources of this instance type into account. The <em>t1.micro</em> instances also come without a swap partition which may cause trouble once your instance run out of RAM. If you are running MySQL or memcached on the same server you will sooner or later notice that MySQL has stopped responding because the operating system killed it.</p>
+
+<p>Use the following simple script to determine your Apache <code class="highlighter-rouge">ServerLimit</code> and <code class="highlighter-rouge">MaxClients</code>:</p>
+
+<div id="gist-4496984-check-apache-instances-sh">
+  <script src="https://gist.github.com/4496984.js?file=check-apache-instances.sh"></script>
+</div>
+
+<p>The script will output something similar to this:</p>
+
+<div id="gist-4496984-shell-output-txt">
+  <script src="https://gist.github.com/4496984.js?file=shell-output.txt"></script>
+</div>
+
+<p>You would then modify your Apache configuration accordingly:</p>
+
+<div id="gist-4496984-httpd-conf">
+  <script src="https://gist.github.com/4496984.js?file=httpd.conf"></script>
+</div>
+
+<p>The above configuration excerpt assumes that you are using <code class="highlighter-rouge">mod_prefork</code> and that you want to keep some free RAM for other processes such as MySQL.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Round Robin MongoDB backups to S3 with Tar]]></title>
+    <link href="http://xorcode.com/cloud/server/2012/08/22/round-robin-mongodb-backups-to-s3-with-tar.html/"/>
+    <updated>2012-08-22T00:00:00+00:00</updated>
+    <id>http://xorcode.com/cloud/server/2012/08/22/round-robin-mongodb-backups-to-s3-with-tar</id>
+    <content type="html"><![CDATA[<p>Have you been looking for an easy way to back something up to the cloud with minimum effort? Having explored several options we settled on the most simple solution available. <a href="http://bit.ly/NlRanp">Tar</a> and <a href="http://amzn.to/Py3yoX">Amazon S3</a>.</p>
+
+<!--more-->
+
+<blockquote>
+  <p><img src="/assets/uploads/2012/08/gnu-head.png" class="pull-right" /> The Tar program provides the ability to create tar archives, as well as various other kinds of manipulation. For example, you can use Tar on previously created archives to extract files, to store additional files, or to update or list files which were already stored. Initially, tar archives were used to store files conveniently on magnetic tape. The name “Tar” comes from this use; it stands for <strong>t</strong>ape <strong>ar</strong>chiver. Despite the utility’s name, Tar can direct its output to available devices, files, or other programs (using pipes), it can even access remote devices or files (as archives).</p>
+</blockquote>
+
+<p><strong>backup.sh</strong></p>
+
+<div id="gist-3430452-backup-sh">
+  <script src="https://gist.github.com/3430452.js?file=backup.sh"></script>
+</div>
+
+<p><strong>tarsplitter.sh</strong></p>
+
+<div id="gist-3430452-tarsplitter-sh">
+  <script src="https://gist.github.com/3430452.js?file=tarsplitter.sh"></script>
+</div>
+
+<p>Make sure that <code class="highlighter-rouge">s3cmd</code> or <code class="highlighter-rouge">s3multiput</code> is in your environment path.</p>
+
+<h3 id="running-on-an-aws-instance">Running on an AWS instance</h3>
+
+<p>As long as you are on an AWS instance you have the <code class="highlighter-rouge">s3multiput</code> utility installed and ready to start using these scripts right away. We noticed on our AWS instance that <code class="highlighter-rouge">s3multiput</code> did not work because FileChunkIO was not installed. The S3 command line tools are written in Python, so we installed FileChunkIO with the following command:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo easy_install FileChunkIO
+</code></pre>
+</div>
+
+<h3 id="non-aws-scenarios">Non-AWS scenarios</h3>
+
+<p>If you are not on an AWS instance, you have to install <a href="http://bit.ly/NlRdj7">s3cmd</a>. Unfortunately the S3 tools available in AWS are not yet packaged for Ubuntu, which however has some <a href="http://bit.ly/Py3CVN">native package support</a> for other AWS services.</p>
+
+<h4 id="installing-s3-tools-on-ubuntu">Installing S3 Tools on Ubuntu</h4>
+
+<p>If you happen to have Ubuntu 12.04 LTS you can safely install <code class="highlighter-rouge">s3cmd</code> with <code class="highlighter-rouge">apt-get</code>.</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo apt-get install s3cmd
+</code></pre>
+</div>
+
+<p>Otherwise we recommend that you install from <a href="http://bit.ly/Pybvdy">source</a>.</p>
+
+<h4 id="installing-s3-tools-on-rpm-based-systems">Installing S3 Tools on RPM-based systems</h4>
+
+<blockquote>
+  <p>Users of Suse (Novell) and RedHat based Linux distributions are encouraged to add our <a href="http://bit.ly/PybvdA">package repository</a> to their package managers. That way you’ll always stay up to date with your s3cmd package.</p>
+</blockquote>
+
+<p>As stated above it is best to add the package repository to stay up to date with the S3 tools.</p>
+
+<h4 id="installing-s3-tools-from-source">Installing S3 Tools from source</h4>
+
+<p>Check out the source of S3 tools:</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>git clone git://github.com/s3tools/s3cmd.git
+<span class="gp">$ </span><span class="nb">cd </span>s3cmd
+<span class="gp">$ </span>sudo python setup.py install
+</code></pre>
+</div>
+
+<p>The above requires that you have the Python distutils module. On a Debian system (such as Ubuntu):</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo apt-get install python-setuptools
+</code></pre>
+</div>
+
+<h4 id="configure-s3cmd">Configure s3cmd</h4>
+
+<p>You have to run <code class="highlighter-rouge">s3cmd --configure</code> in order to make <code class="highlighter-rouge">s3cmd</code> work. This will take you through a set of guided prompts setting up your access key and secret key as well as encryption.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://xorcode.com/sitemap.xml
